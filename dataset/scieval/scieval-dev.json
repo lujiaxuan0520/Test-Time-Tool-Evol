@@ -1,0 +1,982 @@
+[
+ {
+  "question": "A 68-year-old woman presents with an intermittent throbbing headache with an onset approximately 3 weeks ago. The pain is bilateral, \u201cband-like,\u201d and extends to the neck. The patient rates the 4 points out of 10 on a visual scale. The headache is not accompanied by nausea, vomiting, photophobia, or phonophobia, and is not aggravated by movements, but gets worse when the patient coughs or laughs. The headache has persisted throughout the day and is usually worse in the morning an hour after she has breakfast and taken her medications. The patient was diagnosed with stage 1 arterial hypertension 2 years ago and stable angina pectoris 3 weeks ago. Currently, she takes aspirin (81 mg once daily), rosuvastatin (10 mg once daily), lisinopril (20 mg once daily), and isosorbide mononitrate (60 mg once daily). She has been menopausal for the last 15 years. In addition to her chief complaint, she also notes that she had a runny nose with a temperature elevation approximately 3 weeks ago, and her headache was linked to that acute illness. The vital signs are as follows: blood pressure 135/80 mm Hg, heart rate 76/min, respiratory rate 14/min, and temperature 36.5\u2103 (97.7\u2109). The physical examination reveals S2 accentuation that is best heard in the second intercostal space at the right sternal border. Palpation of the paranasal sinuses is painless. The neurologic exam shows no focal symptoms, no pain on palpation of the trigeminal points, and no meningeal symptoms. What is the most likely mechanism underlying the patient\u2019s headaches?\n\nA. Meningeal irritation by blood products originating from a chronic subdural hematoma\nB. Dissection of an intracerebral vessel\nC. Meningeal irritation by a growing intracranial neoplasm\nD. Dilation of the intracerebral arterioles\n\nAnswer:",
+  "answer": [
+   "D"
+  ],
+  "category": "biology",
+  "topic": null,
+  "ability": "Knowledge Application",
+  "type": "multiple-choice",
+  "task_name": "MedQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "2794a4fd04a6a0731c7ef0688083e850"
+ },
+ {
+  "question": "A 25-year-old primigravida is admitted to the hospital at 36 weeks gestation after a generalized tonic-clonic seizure. She is conscious, but lethargic and complains of a headache that started 2 hours prior to the seizure. She denies alcohol intake or drug use. She has no history of convulsive disorders and the antepartum course has been unremarkable. She was compliant with the recommended prenatal care and her last prenatal visit was 2 weeks ago. She has gained 2 kg (4.4 lb) since her last visit. The blood pressure was 160/90 mm Hg, the heart rate was 79/min, the respiratory rate was 14/min, and the temperature was 37.0\u2103 (98.6\u2109). The physical examination shows leg and perineal edema. The neurologic examination is significant for symmetric upper and lower extremity hyperreflexia and ankle clonus. Which of the following laboratory findings would be most common in this patient?\n\nA. Elevated transaminases\nB. Leukocytosis\nC. Hyponatremia\nD. Proteinuria\n\nAnswer:",
+  "answer": [
+   "D"
+  ],
+  "category": "biology",
+  "topic": null,
+  "ability": "Knowledge Application",
+  "type": "multiple-choice",
+  "task_name": "MedQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "55da49da2adb89e3353c84baf6b9c26c"
+ },
+ {
+  "question": "An investigator conducts a study to determine whether earlier detection of glioblastoma multiforme (GBM) in patients increases survival time. One subset of study participants consists of asymptomatic individuals who were diagnosed with GBM after undergoing a screening MRI of the brain. The other subset of study participants was diagnosed with GBM only after they developed symptoms. Results from the study show that the asymptomatic patients who were diagnosed with screening MRI had an average survival time that was 6 weeks longer than that of the patients who were diagnosed after symptom onset. Which of the following statistical biases is most likely to have occurred as a result of the endpoint selected for this study?\n\nA. Observer-expectancy bias\nB. Length-time bias\nC. Surveillance bias\nD. Lead-time bias\n\nAnswer:",
+  "answer": [
+   "D"
+  ],
+  "category": "biology",
+  "topic": null,
+  "ability": "Knowledge Application",
+  "type": "multiple-choice",
+  "task_name": "MedQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "5f41b7fcc2ff792326fe2ac23b2bfadf"
+ },
+ {
+  "question": "A 26-year-old man comes to the physician for episodic fever, recurrent night sweats, and a 6-kg (14.2-lb) weight loss over the past 2 months. He reports that the fever lasts for 7 to 10 days, then subsides completely for about a week before returning again. His temperature is 39\u00b0C (102.2\u00b0F). Physical examination shows nontender cervical and supraclavicular lymphadenopathy. An x-ray of the chest shows bilateral mediastinal masses. Resection of a cervical lymph node is performed. A photomicrograph of the resected specimen is shown. Further histopathological examination is most likely to show which of the following findings?\n\nA. Cells staining positive for CD15 and CD30\nB. Cells with BCR-ABL rearrangement\nC. Cells overexpressing Bcl-2\nD. Cells with t(8;14) chromosomal translocation\n\nAnswer:",
+  "answer": [
+   "A"
+  ],
+  "category": "biology",
+  "topic": null,
+  "ability": "Knowledge Application",
+  "type": "multiple-choice",
+  "task_name": "MedQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "19bdfaee0201767d82546326825ee447"
+ },
+ {
+  "question": "A 74-year-old man was admitted to the intensive care ward due to progressive dyspnea, cough with pink sputum, and diaphoresis. He had 2 myocardial infarctions at the age of 66 and 69 years and suffers from chronic heart failure. At the time of presentation, his vital signs are as follows: blood pressure 90/50 mm Hg, heart rate 108/min, respiratory rate 29/min, and temperature 35.5\u00b0C (95.9\u00b0F). On physical examination, the patient sits upright. He is lethargic and cyanotic. Lung auscultation reveals widespread bilateral fine rales. Cardiac examination is significant for S3, accentuation of the pulmonic component of S2, and a systolic murmur heard best at the apex of the heart. Soon after hospitalization, the patient develops ventricular fibrillation and dies despite adequate resuscitation measures. Which microscopic finding would you expect to see in this patient on autopsy?\n\nA. Brownish inclusions in the pulmonary macrophages on H&E staining\nB. Positive Prussian-blue staining of the kidney tissue\nC. Ground-glass hepatocytes\nD. Positive Congo-red staining of the cardiac tissue\n\nAnswer:",
+  "answer": [
+   "A"
+  ],
+  "category": "biology",
+  "topic": null,
+  "ability": "Knowledge Application",
+  "type": "multiple-choice",
+  "task_name": "MedQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "30b54f752a0751a1994ff39ec768195b"
+ },
+ {
+  "question": "Treatment of elderly cancer patients has gained importance. One question regarding the treatment of metastatic spinal cord compression (MSCC) is whether elderly patients benefit from surgery in addition to radiotherapy? In attempting to answer this question, we performed a matched-pair analysis comparing surgery followed by radiotherapy to radiotherapy alone.\nData from 42 elderly (age>\u200965 years) patients receiving surgery plus radiotherapy (S\u2009+\u2009RT) were matched to 84 patients (1:2) receiving radiotherapy alone (RT). Groups were matched for ten potential prognostic factors and compared regarding motor function, local control, and survival. Additional matched-pair analyses were performed for the subgroups of patients receiving direct decompressive surgery plus stabilization of involved vertebrae (DDSS, n\u2009=\u200981) and receiving laminectomy (LE, n\u2009=\u200945).\nImprovement of motor function occurred in 21% after S\u2009+\u2009RT and 24% after RT (p\u2009=\u20090.39). The 1-year local control rates were 81% and 91% (p\u2009=\u20090.44), while the 1-year survival rates were 46% and 39% (p\u2009=\u20090.71). In the matched-pair analysis of patients receiving DDSS, improvement of motor function occurred in 22% after DDSS\u2009+\u2009RT and 24% after RT alone (p\u2009=\u20090.92). The 1-year local control rates were 95% and 89% (p\u2009=\u20090.62), and the 1-year survival rates were 54% and 43% (p\u2009=\u20090.30). In the matched-pair analysis of patients receiving LE, improvement of motor function occurred in 20% after LE\u2009+\u2009RT and 23% after RT alone (p\u2009=\u20090.06). The 1-year local control rates were 50% and 92% (p\u2009=\u20090.33). The 1-year survival rates were 32% and 32% (p\u2009=\u20090.55).\n\nDo elderly patients benefit from surgery in addition to radiotherapy for treatment of metastatic spinal cord compression?\n\nAnswer:",
+  "answer": [
+   "no"
+  ],
+  "category": "biology",
+  "topic": null,
+  "ability": "Research Ability",
+  "type": "judge",
+  "task_name": "PubMedQA",
+  "prompt": "Given a context, and a question, please answer the question according to the context. Your answer should be \"yes\", \"no\" or \"maybe\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a context, and a question, please answer the question according to the context. Your answer should be \"yes\", \"no\" or \"maybe\".",
+  "id": "ac8d6076177aab54d94095c94c06f9e9"
+ },
+ {
+  "question": "To investigate the role of human T-lymphotrophic virus type I (HTLV-I) infection in four patients who developed slowly progressive myelopathy with abnormal MRI lesions in the cervical cord levels.\nClinical and neuroradiologic examinations were performed, and the odds that an HTLV-I-infected individual of specified genotype, age, and provirus load had HTLV-I-associated myelopathy (HAM)/tropical spastic paraparesis (TSP) were calculated.\nAnti-HTLV-I antibodies were positive in both the serum and the CSF in all of the patients. Biopsied sample from spinal cord lesions showed inflammatory changes in Patient 1. Patient 2 had a demyelinating type of sensorimotor polyneuropathy. Two of the three patients examined showed high risk of developing HAM/TSP in virologic and immunologic aspects.\n\nChronic progressive cervical myelopathy with HTLV-I infection: Variant form of HAM/TSP?\n\nAnswer:",
+  "answer": [
+   "yes"
+  ],
+  "category": "biology",
+  "topic": null,
+  "ability": "Research Ability",
+  "type": "judge",
+  "task_name": "PubMedQA",
+  "prompt": "Given a context, and a question, please answer the question according to the context. Your answer should be \"yes\", \"no\" or \"maybe\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a context, and a question, please answer the question according to the context. Your answer should be \"yes\", \"no\" or \"maybe\".",
+  "id": "e93b23499ebe0c95a26cc13eea73d015"
+ },
+ {
+  "question": "This study was conducted to investigate the expression and functional impact of the proto-oncogene c-kit in uveal melanoma.\nBased on immunohistochemical (IHC) study of paraffin-embedded specimens from 134 uveal melanomas and Western blot analysis on eight fresh-frozen samples the expression of c-kit in uveal melanoma was studied. Furthermore, the phosphorylation of c-kit and the impact of the tyrosine kinase inhibitor STI571 was examined in the three uveal melanoma cell lines OCM-1, OCM-3, and 92-1.\nEighty-four of 134 paraffin-embedded samples and six of eight fresh-frozen samples expressed c-kit. c-Kit was strongly expressed and tyrosine phosphorylated in cultured uveal melanoma cells compared with cutaneous melanoma cells. Moreover, in contrast to cutaneous melanoma cell lines c-kit maintained a high phosphorylation level in serum-depleted uveal melanoma cells. No activation-related mutations in exon 11 of the KIT gene were found. On the contrary, expression of the stem cell growth factor (c-kit ligand) was detected in all three uveal melanoma cell lines, suggesting the presence of autocrine (paracrine) stimulation pathways. Treatment of uveal melanoma cell lines with STI571, which blocks c-kit autophosphorylation, resulted in cell death. The IC(50) of the inhibitory effects on c-kit phosphorylation and cell proliferation was of equal size and less than 2.5 microM.\n\nc-Kit-dependent growth of uveal melanoma cells: a potential therapeutic target?\n\nAnswer:",
+  "answer": [
+   "yes"
+  ],
+  "category": "biology",
+  "topic": null,
+  "ability": "Research Ability",
+  "type": "judge",
+  "task_name": "PubMedQA",
+  "prompt": "Given a context, and a question, please answer the question according to the context. Your answer should be \"yes\", \"no\" or \"maybe\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a context, and a question, please answer the question according to the context. Your answer should be \"yes\", \"no\" or \"maybe\".",
+  "id": "59cb4b091af7fe51cf9500e93a0774aa"
+ },
+ {
+  "question": "Alcohol-associated cues elicit craving in human addicts but little is known about craving mechanisms. Current animal models focus on relapse and this may confound the effect of environmental cues. OBJECTIVES. To develop a model to study the effects of environmental cues on alcohol consumption in animals not experiencing withdrawal or relapse.\nRats were trained to orally self-administer an alcohol (5% w/v)/saccharin (0.2%) solution 30 min a day for 20 days. After stable responding on a free choice between alcohol/saccharin and water, rats were exposed to 5, 10 or 15 min of alcohol-associated cues or 5 min of non-alcohol associated cues. The effect of a 5-min cue was measured after a 10-day break from training or pre-treatment with 0.03, 0.1 or 1 mg/kg naltrexone.\nRats given 5 min of alcohol-associated cues responded significantly more on the active lever (26% increase) and consumed more alcohol as verified by increased blood alcohol levels (8.9 mM versus control 7.5 mM). Ten or 15 min of cues did not change alcohol consumption and 5 min in a novel environment decreased response by 66%. After a 10-day break in training, 5 min of alcohol-associated cues still increased alcohol consumption (29% increase) and the cue effect could be dose-dependently blocked by naltrexone (143% decrease at 0.03 mg/kg).\n\nCue-induced behavioural activation: a novel model of alcohol craving?\n\nAnswer:",
+  "answer": [
+   "yes"
+  ],
+  "category": "biology",
+  "topic": null,
+  "ability": "Research Ability",
+  "type": "judge",
+  "task_name": "PubMedQA",
+  "prompt": "Given a context, and a question, please answer the question according to the context. Your answer should be \"yes\", \"no\" or \"maybe\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a context, and a question, please answer the question according to the context. Your answer should be \"yes\", \"no\" or \"maybe\".",
+  "id": "b8fcdfce817be435cdacfd67ecf19ef9"
+ },
+ {
+  "question": "Polymorphisms in the oestrogen receptor 1 (ESR1) and oestrogen receptor 2 (ESR2) genes are associated with intermediate or endpoint markers of cardiovascular disease and with the efficacy of postmenopausal hormone therapy (HT). Contradictory findings have been described in the past and the role of these genetics variants remains unclear.\nA cross-sectional study was carried out with 266 postmenopausal women, of whom 115 received oral HT (HT+) and 151 did not receive any HT (HT-). We analysed three single-nucleotide polymorphisms (SNPs) in ESR1 (rs1801132, rs7757956 and rs2813544) and two in ESR2 (rs3020450 and rs7154455) and derived haplotypes with three additional polymorphisms that had been previously investigated by our group (ESR1 rs2234693 and ESR2 rs1256049 and rs4986938).\nThe ESR1 rs2813544 polymorphism was associated with low-density lipoprotein cholesterol (LDL-C) in HT+ postmenopausal women (p\u2009=\u20090.044; pC\u2009=\u20090.388), while one ESR2 gene haplotype was associated with total cholesterol (T-chol) (p\u2009=\u20090.015; pC\u2009=\u20090.090) and LDL-C in HT+ postmenopausal women (p\u2009=\u20090.021; pC\u2009=\u20090.126).\n\nAre polymorphisms in oestrogen receptors genes associated with lipid levels in response to hormone therapy?\n\nAnswer:",
+  "answer": [
+   "yes"
+  ],
+  "category": "biology",
+  "topic": null,
+  "ability": "Research Ability",
+  "type": "judge",
+  "task_name": "PubMedQA",
+  "prompt": "Given a context, and a question, please answer the question according to the context. Your answer should be \"yes\", \"no\" or \"maybe\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a context, and a question, please answer the question according to the context. Your answer should be \"yes\", \"no\" or \"maybe\".",
+  "id": "4d8f556878a59336f497d0683aa3bd90"
+ },
+ {
+  "question": "Given the rest of reaction components:\nreactant 1: Clc1ccc2ncccc2c1\nreactant 2: Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O\nbase: CC#N\nsolvent: C(=O)(O)[O-].[Na+]  \nLigand list for selection:\nc1ccc(P(c2ccccc2)c2ccccc2)cc1,CN(C)Cc1ccc(P(C(C)(C)C)C(C)(C)C)cc1,C1CCC(P(C2CCCCC2)C2CCCCC2)CC1,Cc1ccccc1P(c1ccccc1C)c1ccccc1C,CCCCP(C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2,COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1,CC(C)(C)P([C]1C=C[CH][C@@H]1[Fe]C1C=CC=C1P(C(C)(C)C)C(C)(C)C)C(C)(C)C,CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1,C1=C[C@H]2[Fe][C@@H]1[C]2P(c1ccccc1)c1ccccc1,CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21\nOptimal ligand:",
+  "answer": [
+   "CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1"
+  ],
+  "category": "chemistry",
+  "topic": null,
+  "ability": "Knowledge Application",
+  "type": "filling",
+  "task_name": "reagent selection",
+  "prompt": "You are an expert chemist. Given selected two reactants, one reagent and solvent of a Suzuki reaction, predict the optimal ligand that maximize the yield with the rest of reaction components by using your experienced chemical ligand selection knowledge. No explanations and other information. Only return the ligand smiles from the given list. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\nreactant: reactant 2\nbase: base 1\nsolvent: solvent 1 \nLigand list: ligand1,ligand2,ligand3,.etc\nOptimal reactant: ligand2",
+  "cot_prompt": "You are an expert chemist. Given selected two reactants, one reagent and solvent of a Suzuki reaction, predict the optimal ligand that maximize the yield with the rest of reaction components by using your experienced chemical ligand selection knowledge. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\nreactant: reactant 2\nbase: base 1\nsolvent: solvent 1 \nLigand list: ligand1,ligand2,ligand3,.etc\nOptimal reactant: ligand2",
+  "id": "ac32704e4a228818f6a526546388b525"
+ },
+ {
+  "question": "Given the rest of reaction components:\nreactant 1: Ic1ccc2ncccc2c1\nreactant 2: Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O\nbase: CO\nsolvent: [O-]P(=O)([O-])[O-].[K+].[K+].[K+]  \nLigand list for selection:\nc1ccc(P(c2ccccc2)c2ccccc2)cc1,CN(C)Cc1ccc(P(C(C)(C)C)C(C)(C)C)cc1,C1CCC(P(C2CCCCC2)C2CCCCC2)CC1,Cc1ccccc1P(c1ccccc1C)c1ccccc1C,CCCCP(C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2,COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1,CC(C)(C)P([C]1C=C[CH][C@@H]1[Fe]C1C=CC=C1P(C(C)(C)C)C(C)(C)C)C(C)(C)C,CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1,C1=C[C@H]2[Fe][C@@H]1[C]2P(c1ccccc1)c1ccccc1,CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21\nOptimal ligand:",
+  "answer": [
+   "c1ccc(P(c2ccccc2)c2ccccc2)cc1"
+  ],
+  "category": "chemistry",
+  "topic": null,
+  "ability": "Knowledge Application",
+  "type": "filling",
+  "task_name": "reagent selection",
+  "prompt": "You are an expert chemist. Given selected two reactants, one reagent and solvent of a Suzuki reaction, predict the optimal ligand that maximize the yield with the rest of reaction components by using your experienced chemical ligand selection knowledge. No explanations and other information. Only return the ligand smiles from the given list. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\nreactant: reactant 2\nbase: base 1\nsolvent: solvent 1 \nLigand list: ligand1,ligand2,ligand3,.etc\nOptimal reactant: ligand2",
+  "cot_prompt": "You are an expert chemist. Given selected two reactants, one reagent and solvent of a Suzuki reaction, predict the optimal ligand that maximize the yield with the rest of reaction components by using your experienced chemical ligand selection knowledge. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\nreactant: reactant 2\nbase: base 1\nsolvent: solvent 1 \nLigand list: ligand1,ligand2,ligand3,.etc\nOptimal reactant: ligand2",
+  "id": "4ffffb3d0b0c896075247ce3cf4dc18c"
+ },
+ {
+  "question": "Given the rest of reaction components:\nreactant 1: Ic1ccc2ncccc2c1\nreactant 2: Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O\nbase: CC#N\nsolvent: [OH-].[Na+]  \nLigand list for selection:\nc1ccc(P(c2ccccc2)c2ccccc2)cc1,CN(C)Cc1ccc(P(C(C)(C)C)C(C)(C)C)cc1,C1CCC(P(C2CCCCC2)C2CCCCC2)CC1,Cc1ccccc1P(c1ccccc1C)c1ccccc1C,CCCCP(C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2,COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1,CC(C)(C)P([C]1C=C[CH][C@@H]1[Fe]C1C=CC=C1P(C(C)(C)C)C(C)(C)C)C(C)(C)C,CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1,C1=C[C@H]2[Fe][C@@H]1[C]2P(c1ccccc1)c1ccccc1,CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21\nOptimal ligand:",
+  "answer": [
+   "CCCCP(C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2"
+  ],
+  "category": "chemistry",
+  "topic": null,
+  "ability": "Knowledge Application",
+  "type": "filling",
+  "task_name": "reagent selection",
+  "prompt": "You are an expert chemist. Given selected two reactants, one reagent and solvent of a Suzuki reaction, predict the optimal ligand that maximize the yield with the rest of reaction components by using your experienced chemical ligand selection knowledge. No explanations and other information. Only return the ligand smiles from the given list. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\nreactant: reactant 2\nbase: base 1\nsolvent: solvent 1 \nLigand list: ligand1,ligand2,ligand3,.etc\nOptimal reactant: ligand2",
+  "cot_prompt": "You are an expert chemist. Given selected two reactants, one reagent and solvent of a Suzuki reaction, predict the optimal ligand that maximize the yield with the rest of reaction components by using your experienced chemical ligand selection knowledge. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\nreactant: reactant 2\nbase: base 1\nsolvent: solvent 1 \nLigand list: ligand1,ligand2,ligand3,.etc\nOptimal reactant: ligand2",
+  "id": "358347407c587715d93ceddb984dd64e"
+ },
+ {
+  "question": "Given the rest of reaction components:\nreactant 1: Ic1ccc2ncccc2c1\nreactant 2: Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\nbase: C1CCOC1\nsolvent: [OH-].[Na+]  \nLigand list for selection:\nc1ccc(P(c2ccccc2)c2ccccc2)cc1,CN(C)Cc1ccc(P(C(C)(C)C)C(C)(C)C)cc1,C1CCC(P(C2CCCCC2)C2CCCCC2)CC1,Cc1ccccc1P(c1ccccc1C)c1ccccc1C,CCCCP(C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2,COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1,CC(C)(C)P([C]1C=C[CH][C@@H]1[Fe]C1C=CC=C1P(C(C)(C)C)C(C)(C)C)C(C)(C)C,CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1,C1=C[C@H]2[Fe][C@@H]1[C]2P(c1ccccc1)c1ccccc1,CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21\nOptimal ligand:",
+  "answer": [
+   "CCCCP(C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2"
+  ],
+  "category": "chemistry",
+  "topic": null,
+  "ability": "Knowledge Application",
+  "type": "filling",
+  "task_name": "reagent selection",
+  "prompt": "You are an expert chemist. Given selected two reactants, one reagent and solvent of a Suzuki reaction, predict the optimal ligand that maximize the yield with the rest of reaction components by using your experienced chemical ligand selection knowledge. No explanations and other information. Only return the ligand smiles from the given list. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\nreactant: reactant 2\nbase: base 1\nsolvent: solvent 1 \nLigand list: ligand1,ligand2,ligand3,.etc\nOptimal reactant: ligand2",
+  "cot_prompt": "You are an expert chemist. Given selected two reactants, one reagent and solvent of a Suzuki reaction, predict the optimal ligand that maximize the yield with the rest of reaction components by using your experienced chemical ligand selection knowledge. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\nreactant: reactant 2\nbase: base 1\nsolvent: solvent 1 \nLigand list: ligand1,ligand2,ligand3,.etc\nOptimal reactant: ligand2",
+  "id": "2eba6d7c7113e348448b292b9ba3c20e"
+ },
+ {
+  "question": "Given the rest of reaction components:\nreactant 1: Brc1ccc2ncccc2c1\nreactant 2: Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O\nbase: C1CCOC1\nsolvent: [OH-].[K+]  \nLigand list for selection:\nc1ccc(P(c2ccccc2)c2ccccc2)cc1,CN(C)Cc1ccc(P(C(C)(C)C)C(C)(C)C)cc1,C1CCC(P(C2CCCCC2)C2CCCCC2)CC1,Cc1ccccc1P(c1ccccc1C)c1ccccc1C,CCCCP(C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2,COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1,CC(C)(C)P([C]1C=C[CH][C@@H]1[Fe]C1C=CC=C1P(C(C)(C)C)C(C)(C)C)C(C)(C)C,CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1,C1=C[C@H]2[Fe][C@@H]1[C]2P(c1ccccc1)c1ccccc1,CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21\nOptimal ligand:",
+  "answer": [
+   "CCCCP(C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2"
+  ],
+  "category": "chemistry",
+  "topic": null,
+  "ability": "Knowledge Application",
+  "type": "filling",
+  "task_name": "reagent selection",
+  "prompt": "You are an expert chemist. Given selected two reactants, one reagent and solvent of a Suzuki reaction, predict the optimal ligand that maximize the yield with the rest of reaction components by using your experienced chemical ligand selection knowledge. No explanations and other information. Only return the ligand smiles from the given list. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\nreactant: reactant 2\nbase: base 1\nsolvent: solvent 1 \nLigand list: ligand1,ligand2,ligand3,.etc\nOptimal reactant: ligand2",
+  "cot_prompt": "You are an expert chemist. Given selected two reactants, one reagent and solvent of a Suzuki reaction, predict the optimal ligand that maximize the yield with the rest of reaction components by using your experienced chemical ligand selection knowledge. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\nreactant: reactant 2\nbase: base 1\nsolvent: solvent 1 \nLigand list: ligand1,ligand2,ligand3,.etc\nOptimal reactant: ligand2",
+  "id": "56797707d859a342b7de82ea4cc4a9de"
+ },
+ {
+  "question": "Given the rest of reaction components:\nreactant: Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]\nligand: COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1\nsolvent: C1CCOC1\nbase: CCN(CC)CC  \nReactants list for selection:\nIc1ccc2ncccc2c1,Brc1ccc2ncccc2c1,Clc1ccc2ncccc2c1\nOptimal reactant:",
+  "answer": [
+   "Ic1ccc2ncccc2c1"
+  ],
+  "category": "chemistry",
+  "topic": null,
+  "ability": "Knowledge Application",
+  "type": "filling",
+  "task_name": "reagent selection",
+  "prompt": "You are an expert chemist. Given selected one reactant, two reagents and solvent of a Suzuki reaction, predict the optimal reactant that maximize the yield with the rest of reaction components by using your experienced chemical reactant selection knowledge. No explanations and other information. Only return the reactant smiles from the given list. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\n ligand: ligand 1\n base: base 1\n solvent: solvent 1 \nReactant list: reactant1,reactant2,reactant3,.etc\nOptimal reactant: reactant2",
+  "cot_prompt": "You are an expert chemist. Given selected one reactant, two reagents and solvent of a Suzuki reaction, predict the optimal reactant that maximize the yield with the rest of reaction components by using your experienced chemical reactant selection knowledge. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\n ligand: ligand 1\n base: base 1\n solvent: solvent 1 \nReactant list: reactant1,reactant2,reactant3,.etc\nOptimal reactant: reactant2",
+  "id": "cc9e5eba84f6c36ef92fb91be26a3eb5"
+ },
+ {
+  "question": "Given the rest of reaction components:\nreactant: Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]\nligand: c1ccc(P(c2ccccc2)c2ccccc2)cc1\nsolvent: CO\nbase: C(=O)(O)[O-].[Na+]  \nReactants list for selection:\nIc1ccc2ncccc2c1,Brc1ccc2ncccc2c1,Clc1ccc2ncccc2c1\nOptimal reactant:",
+  "answer": [
+   "Ic1ccc2ncccc2c1"
+  ],
+  "category": "chemistry",
+  "topic": null,
+  "ability": "Knowledge Application",
+  "type": "filling",
+  "task_name": "reagent selection",
+  "prompt": "You are an expert chemist. Given selected one reactant, two reagents and solvent of a Suzuki reaction, predict the optimal reactant that maximize the yield with the rest of reaction components by using your experienced chemical reactant selection knowledge. No explanations and other information. Only return the reactant smiles from the given list. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\n ligand: ligand 1\n base: base 1\n solvent: solvent 1 \nReactant list: reactant1,reactant2,reactant3,.etc\nOptimal reactant: reactant2",
+  "cot_prompt": "You are an expert chemist. Given selected one reactant, two reagents and solvent of a Suzuki reaction, predict the optimal reactant that maximize the yield with the rest of reaction components by using your experienced chemical reactant selection knowledge. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\n ligand: ligand 1\n base: base 1\n solvent: solvent 1 \nReactant list: reactant1,reactant2,reactant3,.etc\nOptimal reactant: reactant2",
+  "id": "a14b02d3c9ff6864c4ce6b8db5e800c7"
+ },
+ {
+  "question": "Given the rest of reaction components:\nreactant: Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O\nligand: CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1\nsolvent: CN(C)C=O\nbase: [OH-].[K+]  \nReactants list for selection:\nBrc1ccc2ncccc2c1,O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F,Ic1ccc2ncccc2c1\nOptimal reactant:",
+  "answer": [
+   "Ic1ccc2ncccc2c1"
+  ],
+  "category": "chemistry",
+  "topic": null,
+  "ability": "Knowledge Application",
+  "type": "filling",
+  "task_name": "reagent selection",
+  "prompt": "You are an expert chemist. Given selected one reactant, two reagents and solvent of a Suzuki reaction, predict the optimal reactant that maximize the yield with the rest of reaction components by using your experienced chemical reactant selection knowledge. No explanations and other information. Only return the reactant smiles from the given list. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\n ligand: ligand 1\n base: base 1\n solvent: solvent 1 \nReactant list: reactant1,reactant2,reactant3,.etc\nOptimal reactant: reactant2",
+  "cot_prompt": "You are an expert chemist. Given selected one reactant, two reagents and solvent of a Suzuki reaction, predict the optimal reactant that maximize the yield with the rest of reaction components by using your experienced chemical reactant selection knowledge. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\n ligand: ligand 1\n base: base 1\n solvent: solvent 1 \nReactant list: reactant1,reactant2,reactant3,.etc\nOptimal reactant: reactant2",
+  "id": "881cb27b44879145913aae6abea70595"
+ },
+ {
+  "question": "Given the rest of reaction components:\nreactant: Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O\nligand: CN(C)Cc1ccc(P(C(C)(C)C)C(C)(C)C)cc1\nsolvent: C1CCOC1\nbase: [OH-].[Na+]  \nReactants list for selection:\nBrc1ccc2ncccc2c1,O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F,Ic1ccc2ncccc2c1\nOptimal reactant:",
+  "answer": [
+   "Ic1ccc2ncccc2c1"
+  ],
+  "category": "chemistry",
+  "topic": null,
+  "ability": "Knowledge Application",
+  "type": "filling",
+  "task_name": "reagent selection",
+  "prompt": "You are an expert chemist. Given selected one reactant, two reagents and solvent of a Suzuki reaction, predict the optimal reactant that maximize the yield with the rest of reaction components by using your experienced chemical reactant selection knowledge. No explanations and other information. Only return the reactant smiles from the given list. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\n ligand: ligand 1\n base: base 1\n solvent: solvent 1 \nReactant list: reactant1,reactant2,reactant3,.etc\nOptimal reactant: reactant2",
+  "cot_prompt": "You are an expert chemist. Given selected one reactant, two reagents and solvent of a Suzuki reaction, predict the optimal reactant that maximize the yield with the rest of reaction components by using your experienced chemical reactant selection knowledge. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\n ligand: ligand 1\n base: base 1\n solvent: solvent 1 \nReactant list: reactant1,reactant2,reactant3,.etc\nOptimal reactant: reactant2",
+  "id": "55caa9bf41929375dada971dc422f5c1"
+ },
+ {
+  "question": "Given the rest of reaction components:\nreactant: Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O\nligand: CCCCP(C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2\nsolvent: CN(C)C=O\nbase: [Li+].CC(C)(C)[O-]  \nReactants list for selection:\nBrc1ccc2ncccc2c1,O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F,Ic1ccc2ncccc2c1\nOptimal reactant:",
+  "answer": [
+   "Ic1ccc2ncccc2c1"
+  ],
+  "category": "chemistry",
+  "topic": null,
+  "ability": "Knowledge Application",
+  "type": "filling",
+  "task_name": "reagent selection",
+  "prompt": "You are an expert chemist. Given selected one reactant, two reagents and solvent of a Suzuki reaction, predict the optimal reactant that maximize the yield with the rest of reaction components by using your experienced chemical reactant selection knowledge. No explanations and other information. Only return the reactant smiles from the given list. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\n ligand: ligand 1\n base: base 1\n solvent: solvent 1 \nReactant list: reactant1,reactant2,reactant3,.etc\nOptimal reactant: reactant2",
+  "cot_prompt": "You are an expert chemist. Given selected one reactant, two reagents and solvent of a Suzuki reaction, predict the optimal reactant that maximize the yield with the rest of reaction components by using your experienced chemical reactant selection knowledge. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\n ligand: ligand 1\n base: base 1\n solvent: solvent 1 \nReactant list: reactant1,reactant2,reactant3,.etc\nOptimal reactant: reactant2",
+  "id": "24fd9dea458065d18d2a1a7edc17deec"
+ },
+ {
+  "question": "Given the rest of reaction components:\nreactant 1: Brc1ccc2ncccc2c1\nreactant 2: Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O\nligand: c1ccc(P(c2ccccc2)c2ccccc2)cc1\nbase: [Li+].CC(C)(C)[O-]  \nSolvent list for selection:\nC1CCOC1,CN(C)C=O,CO\nOptimal solvent:",
+  "answer": [
+   "CO"
+  ],
+  "category": "chemistry",
+  "topic": null,
+  "ability": "Knowledge Application",
+  "type": "filling",
+  "task_name": "reagent selection",
+  "prompt": "You are an expert chemist. Given selected two reactants, two reagents of a Suzuki reaction, predict the optimal solvent that maximize the yield with the rest of reaction components by using your experienced chemical solvent selection knowledge. No explanations and other information. Only return the solvent smiles from the given list. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\nreactant: reactant 2\nligand: ligand 1\nbase: base 1 \nsolvent list: solvent 1,solvent 2,solvent 3,.etc\nOptimal solvent: solvent 2",
+  "cot_prompt": "You are an expert chemist. Given selected two reactants, two reagents of a Suzuki reaction, predict the optimal solvent that maximize the yield with the rest of reaction components by using your experienced chemical solvent selection knowledge. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\nreactant: reactant 2\nligand: ligand 1\nbase: base 1 \nsolvent list: solvent 1,solvent 2,solvent 3,.etc\nOptimal solvent: solvent 2",
+  "id": "5918a6ea150e8b5e537243de3fc78c2e"
+ },
+ {
+  "question": "Given the rest of reaction components:\nreactant 1: O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F\nreactant 2: Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O\nligand: C1CCC(P(C2CCCCC2)C2CCCCC2)CC1\nbase: C(=O)(O)[O-].[Na+]  \nSolvent list for selection:\nC1CCOC1,CN(C)C=O,CO\nOptimal solvent:",
+  "answer": [
+   "C1CCOC1"
+  ],
+  "category": "chemistry",
+  "topic": null,
+  "ability": "Knowledge Application",
+  "type": "filling",
+  "task_name": "reagent selection",
+  "prompt": "You are an expert chemist. Given selected two reactants, two reagents of a Suzuki reaction, predict the optimal solvent that maximize the yield with the rest of reaction components by using your experienced chemical solvent selection knowledge. No explanations and other information. Only return the solvent smiles from the given list. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\nreactant: reactant 2\nligand: ligand 1\nbase: base 1 \nsolvent list: solvent 1,solvent 2,solvent 3,.etc\nOptimal solvent: solvent 2",
+  "cot_prompt": "You are an expert chemist. Given selected two reactants, two reagents of a Suzuki reaction, predict the optimal solvent that maximize the yield with the rest of reaction components by using your experienced chemical solvent selection knowledge. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\nreactant: reactant 2\nligand: ligand 1\nbase: base 1 \nsolvent list: solvent 1,solvent 2,solvent 3,.etc\nOptimal solvent: solvent 2",
+  "id": "15e7d196ffe195f76a96f548cb6dd020"
+ },
+ {
+  "question": "Given the rest of reaction components:\nreactant 1: Ic1ccc2ncccc2c1\nreactant 2: Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O\nligand: C1=C[C@H]2[Fe][C@@H]1[C]2P(c1ccccc1)c1ccccc1\nbase: CCN(CC)CC  \nSolvent list for selection:\nC1CCOC1,CN(C)C=O,CO\nOptimal solvent:",
+  "answer": [
+   "CO"
+  ],
+  "category": "chemistry",
+  "topic": null,
+  "ability": "Knowledge Application",
+  "type": "filling",
+  "task_name": "reagent selection",
+  "prompt": "You are an expert chemist. Given selected two reactants, two reagents of a Suzuki reaction, predict the optimal solvent that maximize the yield with the rest of reaction components by using your experienced chemical solvent selection knowledge. No explanations and other information. Only return the solvent smiles from the given list. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\nreactant: reactant 2\nligand: ligand 1\nbase: base 1 \nsolvent list: solvent 1,solvent 2,solvent 3,.etc\nOptimal solvent: solvent 2",
+  "cot_prompt": "You are an expert chemist. Given selected two reactants, two reagents of a Suzuki reaction, predict the optimal solvent that maximize the yield with the rest of reaction components by using your experienced chemical solvent selection knowledge. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\nreactant: reactant 2\nligand: ligand 1\nbase: base 1 \nsolvent list: solvent 1,solvent 2,solvent 3,.etc\nOptimal solvent: solvent 2",
+  "id": "34bf5988c9fcbb467948e78cf1653e2c"
+ },
+ {
+  "question": "Given the rest of reaction components:\nreactant 1: Clc1ccc2ncccc2c1\nreactant 2: Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O\nligand: CC(C)(C)P([C]1C=C[CH][C@@H]1[Fe]C1C=CC=C1P(C(C)(C)C)C(C)(C)C)C(C)(C)C\nbase: [OH-].[Na+]  \nSolvent list for selection:\nC1CCOC1,CN(C)C=O,CO\nOptimal solvent:",
+  "answer": [
+   "CO"
+  ],
+  "category": "chemistry",
+  "topic": null,
+  "ability": "Knowledge Application",
+  "type": "filling",
+  "task_name": "reagent selection",
+  "prompt": "You are an expert chemist. Given selected two reactants, two reagents of a Suzuki reaction, predict the optimal solvent that maximize the yield with the rest of reaction components by using your experienced chemical solvent selection knowledge. No explanations and other information. Only return the solvent smiles from the given list. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\nreactant: reactant 2\nligand: ligand 1\nbase: base 1 \nsolvent list: solvent 1,solvent 2,solvent 3,.etc\nOptimal solvent: solvent 2",
+  "cot_prompt": "You are an expert chemist. Given selected two reactants, two reagents of a Suzuki reaction, predict the optimal solvent that maximize the yield with the rest of reaction components by using your experienced chemical solvent selection knowledge. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\nreactant: reactant 2\nligand: ligand 1\nbase: base 1 \nsolvent list: solvent 1,solvent 2,solvent 3,.etc\nOptimal solvent: solvent 2",
+  "id": "8c36b45e7bb7cce7e98172b5d6b58e57"
+ },
+ {
+  "question": "Given the rest of reaction components:\nreactant 1: Ic1ccc2ncccc2c1\nreactant 2: Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\nligand: c1ccc(P(c2ccccc2)c2ccccc2)cc1\nbase: C(=O)(O)[O-].[Na+]  \nSolvent list for selection:\nC1CCOC1,CN(C)C=O,CO\nOptimal solvent:",
+  "answer": [
+   "C1CCOC1"
+  ],
+  "category": "chemistry",
+  "topic": null,
+  "ability": "Knowledge Application",
+  "type": "filling",
+  "task_name": "reagent selection",
+  "prompt": "You are an expert chemist. Given selected two reactants, two reagents of a Suzuki reaction, predict the optimal solvent that maximize the yield with the rest of reaction components by using your experienced chemical solvent selection knowledge. No explanations and other information. Only return the solvent smiles from the given list. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\nreactant: reactant 2\nligand: ligand 1\nbase: base 1 \nsolvent list: solvent 1,solvent 2,solvent 3,.etc\nOptimal solvent: solvent 2",
+  "cot_prompt": "You are an expert chemist. Given selected two reactants, two reagents of a Suzuki reaction, predict the optimal solvent that maximize the yield with the rest of reaction components by using your experienced chemical solvent selection knowledge. Please strictly follow the format, the template are provided as follows:\nGiven the rest of reaction components:\nreactant: reactant 1\nreactant: reactant 2\nligand: ligand 1\nbase: base 1 \nsolvent list: solvent 1,solvent 2,solvent 3,.etc\nOptimal solvent: solvent 2",
+  "id": "4b163fac58518ce2c7672bba6a07b18d"
+ },
+ {
+  "question": "Why are lipids considered macromolecules?\n\nA. Lipids are macromolecules because they are made of amino acids.\nB. Lipids are macromolecules because they are water-soluble.\nC. Lipids are macromolecules because they consist of glycerol and 3 fatty acid molecules.\nD. Lipids are macromolecules because they only contain glycerol molecules.\n\nAnswer:",
+  "answer": [
+   "C"
+  ],
+  "category": "biology",
+  "topic": "Molecular Biology Basics",
+  "ability": "Base Knowledge",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "ba2d1cd7bcc205eff916948017e12677"
+ },
+ {
+  "question": "What is ovulation?\n\nA. Fusion of sperm and egg during fertilization\nB. Release of hormones from the pituitary gland\nC. Release of secondary oocyte from the ovary during the menstrual cycle\nD. Formation of a mature egg in the ovary\n\nAnswer:",
+  "answer": [
+   "C"
+  ],
+  "category": "biology",
+  "topic": "Reproduction & Development",
+  "ability": "Base Knowledge",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "ed27149b27553db677a38a2af5140d54"
+ },
+ {
+  "question": "How do chromosomes divide during anaphase?\n\nA. Chromosomes divide at anaphase by breaking apart the chromatids.\nB. Chromosomes divide at anaphase by dissolving the centromere.\nC. Chromosomes divide at anaphase by separating the spindle fibers.\nD. Chromosomes divide at anaphase by splitting the centromere.\n\nAnswer:",
+  "answer": [
+   "D"
+  ],
+  "category": "biology",
+  "topic": "The Eukaryotic Cell",
+  "ability": "Base Knowledge",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "43d55e2b259b43a0937732ec714861c1"
+ },
+ {
+  "question": "What is a climax community?\n\nA. An unstable community due to external disturbances.\nB. A community experiencing rapid species turnover.\nC. A stable community in its final stage of succession.\nD. A temporary community in early succession stages.\n\nAnswer:",
+  "answer": [
+   "C"
+  ],
+  "category": "biology",
+  "topic": "Change in Communities",
+  "ability": "Base Knowledge",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "81fd01431c7b5b5d0380fab0825f840e"
+ },
+ {
+  "question": "Why are cell membranes important?\n\nA. Cell membranes store genetic information for cell reproduction.\nB. Cell membranes maintain homeostasis by managing nutrient intake and waste removal.\nC. Cell membranes provide structural support for the cell's shape.\nD. Cell membranes produce energy through cellular respiration.\n\nAnswer:",
+  "answer": [
+   "B"
+  ],
+  "category": "biology",
+  "topic": "Movement In and Out of Cells",
+  "ability": "Base Knowledge",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "04881e24cb7a2cfd28b26eb444a67764"
+ },
+ {
+  "question": "How have humans impacted starfish?\n\nA. Humans have no impact on starfish, as they live in separate environments and do not interact with each other.\nB. Humans impact starfish by teaching them new skills, enhancing their habitats, and promoting their growth.\nC. Humans impact starfish through pollution, habitat destruction, and using them for entertainment and sales.\nD. Humans help starfish by providing food, cleaning their habitats, and protecting them from predators.\n\nAnswer:",
+  "answer": [
+   "C"
+  ],
+  "category": "biology",
+  "topic": "Human Impact on Ecosystems",
+  "ability": "Knowledge Application",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "a955bad22189fbd774f27579cd410ff6"
+ },
+ {
+  "question": "Why do students have to dissect animals in biology?\n\nA. To study animal behavior, dissection is a necessary activity for biology students.\nB. To learn about animal habitats, dissection is a crucial practical for biology students.\nC. To examine animal reproduction, dissection is an essential practical for biology students.\nD. To better understand animal internal structures, dissection is an important practical for biology students.\n\nAnswer:",
+  "answer": [
+   "D"
+  ],
+  "category": "biology",
+  "topic": "Bioethics",
+  "ability": "Knowledge Application",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "a70b6829aa63802ac3ac740ca1c5e516"
+ },
+ {
+  "question": "What is the human impact on the intertidal zone?\n\nA. Trampling organisms, collecting samples, and pollution\nB. Ocean acidification, overfishing, and invasive species\nC. Coastal development, habitat destruction, and tourism\nD. Natural disasters, climate change, and erosion\n\nAnswer:",
+  "answer": [
+   "A"
+  ],
+  "category": "biology",
+  "topic": "Human Impact on Ecosystems",
+  "ability": "Knowledge Application",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "e04c61f8a84ca3ad017d84af3ef09f21"
+ },
+ {
+  "question": "A population of trout lives in a small lake. Some of the trout have a mutation that makes them more colorful. What are some reasons this population is not at Hardy-Weinberg equilibrium?\n\nA. No sexual dimorphism, constant population size, no selection, non-overlapping generations\nB. No sexual reproduction, equal allele frequencies, non-diploid organisms, no migration\nC. Infinitely large population, no overlapping generations, no mutations, random mating\nD. Not infinitely large population, overlapping generations, mutations present, non-random mating\n\nAnswer:",
+  "answer": [
+   "D"
+  ],
+  "category": "biology",
+  "topic": "Genetics & Inheritance",
+  "ability": "Knowledge Application",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "41df3aca13eb07f63f78c57676e51d72"
+ },
+ {
+  "question": "Why is it important for biologists to study the history of life on earth?\n\nA. Understand past life forms and find habitable planets.\nB. Improve communication with animals.\nC. Create time-traveling technology.\nD. Predict natural disasters accurately.\n\nAnswer:",
+  "answer": [
+   "A"
+  ],
+  "category": "biology",
+  "topic": "Origin of Life on Earth",
+  "ability": "Knowledge Application",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "52296f9e6db4d3c814f104e1c5d3e9eb"
+ },
+ {
+  "question": "According to the logistic growth model, what happens to a population when the size of the population reaches carrying capacity?\n\nA. Population size declines rapidly.\nB. Growth rate decreases at carrying capacity.\nC. Population size remains constant.\nD. Growth rate increases exponentially.\n\nAnswer:",
+  "answer": [
+   "B"
+  ],
+  "category": "biology",
+  "topic": "Change in Communities",
+  "ability": "Scientific Calculation",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "b0021d7dfb01e54fa6eed79a14c07fbd"
+ },
+ {
+  "question": "How can the hardy-weinberg equation be calculated?\n\nA. $2p^2+2q^2=1$\nB. $p^2+pq+q^2=1$\nC. $p^2+2pq-q^2=1$\nD. $p^2+2pq+q^2=1$\n\nAnswer:",
+  "answer": [
+   "D"
+  ],
+  "category": "biology",
+  "topic": "Genetics & Inheritance",
+  "ability": "Scientific Calculation",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "d8630a003730c70275b27fcc76819d80"
+ },
+ {
+  "question": "The bones of a prehistoric man found in the desert of new Mexico contain approximately 5% of the original amount of carbon 14. If  the half-life of carbon 14 is 5600 years, approximately how long ago did the man die?\n\nA. 7523 years\nB. 10412 years\nC. 9350 years\nD. 8678.5 years\n\nAnswer:",
+  "answer": [
+   "D"
+  ],
+  "category": "biology",
+  "topic": "Origin of Life on Earth",
+  "ability": "Scientific Calculation",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "0cbb258d96c383786c1eeb4871d67578"
+ },
+ {
+  "question": "If a homozygous dominant genotype is 46% what is the dominant allele frequency?\n\nA. 0.68\nB. 0.46\nC. 0.32\nD. 0.54\n\nAnswer:",
+  "answer": [
+   "A"
+  ],
+  "category": "biology",
+  "topic": "Genetics & Inheritance",
+  "ability": "Scientific Calculation",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "a608af38f701b5a889a14724e0454cf9"
+ },
+ {
+  "question": "What substance is transported across the inner membrane of the mitochondria?\n\nA. Glucose\nB. Protons\nC. Oxygen\nD. Electrons\n\nAnswer:",
+  "answer": [
+   "B"
+  ],
+  "category": "biology",
+  "topic": "Energy in Cells",
+  "ability": "Scientific Calculation",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "738d0e0a0636fa6fa468d4b2ab350568"
+ },
+ {
+  "question": "What is the difference between an alkane, an alkene, and an alkyne?\n\nA. Alkane: double bond; Alkene: single bond; Alkyne: triple bond\nB. Alkane: single bond; Alkene: double bond; Alkyne: triple bond\nC. Alkane: triple bond; Alkene: double bond; Alkyne: single bond\nD. Alkane: single bond; Alkene: triple bond; Alkyne: double bond\n\nAnswer:",
+  "answer": [
+   "B"
+  ],
+  "category": "chemistry",
+  "topic": "Radical Reactions",
+  "ability": "Base Knowledge",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "5326f3d409e5cefdadc702ddbb5388a9"
+ },
+ {
+  "question": "Why are the trend for electronegativity and ionization energy similar?\n\nA. Electronegativity and ionization energy trends are similar because both are only influenced by electron affinity.\nB. Electronegativity and ionization energy trends are similar because both are influenced by nuclear charge and atomic properties.\nC. Electronegativity and ionization energy trends are similar because both are solely based on the position in the periodic table.\nD. Electronegativity and ionization energy trends are similar because both are unrelated to atomic properties.\n\nAnswer:",
+  "answer": [
+   "B"
+  ],
+  "category": "chemistry",
+  "topic": "The Periodic Table",
+  "ability": "Base Knowledge",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "a2ad1bf636940cf010b6291642550f03"
+ },
+ {
+  "question": "Is ammonium chloride soluble?\n\nA. No, ammonium chloride is not soluble.\nB. Ammonium chloride is partially soluble.\nC. Ammonium chloride's solubility depends on temperature.\nD. Yes, ammonium chloride is soluble.\n\nAnswer:",
+  "answer": [
+   "D"
+  ],
+  "category": "chemistry",
+  "topic": "Solutions",
+  "ability": "Base Knowledge",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "9450799716fb80baf0936eae8db1c69f"
+ },
+ {
+  "question": "How do you determine the valence electrons?\n\nA. Divide atomic number by 2\nB. Subtract atomic number from 8\nC. Count inner shell electrons\nD. Count outer shell electrons\n\nAnswer:",
+  "answer": [
+   "D"
+  ],
+  "category": "chemistry",
+  "topic": "Electron Configuration",
+  "ability": "Base Knowledge",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "e85f900f738eac40011ce77a705bf16b"
+ },
+ {
+  "question": "How do cells generate an electrochemical gradient?\n\nA. Cells generate electrochemical gradients through osmosis and diffusion of ions.\nB. Cells create electrochemical gradients using ion channels to move ions across the cell membrane.\nC. Cells create electrochemical gradients by using protein synthesis to change ion concentrations.\nD. Cells produce electrochemical gradients by releasing ions into the extracellular environment.\n\nAnswer:",
+  "answer": [
+   "B"
+  ],
+  "category": "chemistry",
+  "topic": "Electrochemistry",
+  "ability": "Base Knowledge",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "f98bda42026130dffd8a6894c02aaa68"
+ },
+ {
+  "question": "How can you simulate radioactive half-life?\n\nA. Use marbles to represent radioactive particles, drop them from a height, and measure the time it takes for half to break.\nB. Use pennies to simulate unstable isotopes, shake in a container, remove tails-up pennies, and repeat until none remain. Calculate the average number of remaining pennies and estimate the half-life.\nC. Place candies in a jar, shake it, remove the ones that changed color, and count the remaining candies until none are left.\nD. Use dice to represent unstable isotopes, roll them, remove even numbers, and repeat until no dice are left. Calculate the remaining dice and estimate the half-life.\n\nAnswer:",
+  "answer": [
+   "B"
+  ],
+  "category": "chemistry",
+  "topic": "Nuclear Chemistry",
+  "ability": "Knowledge Application",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "02e21a9b480a977037fdac7e012cbf42"
+ },
+ {
+  "question": "How is plasma osmolarity regulated?\n\nA. Lungs control plasma osmolarity by adjusting the rate of respiration.\nB. Liver enzymes break down excess solutes to maintain plasma osmolarity.\nC. Kidneys use a countercurrent flow system to maintain plasma osmolarity.\nD. Sweat glands regulate plasma osmolarity by releasing water.\n\nAnswer:",
+  "answer": [
+   "C"
+  ],
+  "category": "chemistry",
+  "topic": "Solutions",
+  "ability": "Knowledge Application",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "114575215337a44432ffcc3f8e4e78af"
+ },
+ {
+  "question": "Why is diethyl ether used to extract an organic product from water at the end of a reaction?\n\nA. Diethyl ether is used to extract organic products from water because it quickly separates the product, is volatile, and easily removed.\nB. Diethyl ether is chosen for its high boiling point and ability to react with inorganic byproducts.\nC. Diethyl ether is used because it dissolves water, allowing for easy separation of organic products.\nD. Diethyl ether is used due to its low cost and ability to mix with organic products for easy removal.\n\nAnswer:",
+  "answer": [
+   "A"
+  ],
+  "category": "chemistry",
+  "topic": "Alkene and Alkyne Addition Reactions",
+  "ability": "Knowledge Application",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "ef6b5100bd8b8bd7e4e087b839663e50"
+ },
+ {
+  "question": "How would you separate a mixture of alcohol and water?\n\nA. Freeze the mixture, remove solid water, then melt remaining alcohol.\nB. Shake the mixture, let it settle, then remove separated layers.\nC. Heat the mixture, collect evaporated alcohol, then collect evaporated water.\nD. Filter the mixture through a membrane, then evaporate collected water.\n\nAnswer:",
+  "answer": [
+   "C"
+  ],
+  "category": "chemistry",
+  "topic": "Solutions",
+  "ability": "Knowledge Application",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "9cf864033f566204e2a4dc7ef2dacc74"
+ },
+ {
+  "question": "To melt the ice on your driveway, you can use two moles of rock salt ($NaCl$) or two moles of calcium chloride ($CaCl_2$) which solute will have the greatest effect and why?\n\nA. Calcium chloride has a greater effect due to 3 solute particles.\nB. Both have the same effect due to equal moles.\nC. Rock salt has a greater effect due to 2 solute particles.\nD. Neither has any effect on melting ice.\n\nAnswer:",
+  "answer": [
+   "A"
+  ],
+  "category": "chemistry",
+  "topic": "Thermochemistry",
+  "ability": "Knowledge Application",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "8ff8ec55d34f73b6d5e1237e935f3d2f"
+ },
+ {
+  "question": "How many moles are there in 6.37 x 10(-2) L of 0.0832 M barium nitrate?\n\nA. 5.30 \u00d7 10\u207b\u00b3 mol\nB. 3.98 \u00d7 10\u207b\u00b3 mol\nC. 9.12 \u00d7 10\u207b\u00b3 mol\nD. 7.25 \u00d7 10\u207b\u00b3 mol\n\nAnswer:",
+  "answer": [
+   "A"
+  ],
+  "category": "chemistry",
+  "topic": "Reactions in Solution",
+  "ability": "Scientific Calculation",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "4b79d3297f234df02b12707c178524b0"
+ },
+ {
+  "question": "What is the electron configuration of Cl-?\n\nA. 1s\u00b2 2s\u00b2 2p\u2076 3s\u00b2 3p\u2076\nB. 1s\u00b2 2s\u00b2 2p\u2076 3s\u00b2 3p\u2075\nC. 1s\u00b2 2s\u00b2 2p\u2076 3s\u00b9 3p\u2076\nD. 1s\u00b2 2s\u00b2 2p\u2076 3s\u00b2 3p\u2074\n\nAnswer:",
+  "answer": [
+   "A"
+  ],
+  "category": "chemistry",
+  "topic": "Electron Configuration",
+  "ability": "Scientific Calculation",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "67754e8f59e0a5c96f58e6ef2b9c979f"
+ },
+ {
+  "question": "$\"Na\"_3\"PO\"_4$ dissolves in water to produce an electrolyte solution. What is the Osmolarity of a $2.0 * 10^(-3)\"M Na\"_3\"PO\"_4$ solution?\n\nThank you!\n\nA. 8.0 * 10^(-3) osmol L^(-1)\nB. 6.0 * 10^(-3) osmol L^(-1)\nC. 12.0 * 10^(-3) osmol L^(-1)\nD. 2.0 * 10^(-3) osmol L^(-1)\n\nAnswer:",
+  "answer": [
+   "A"
+  ],
+  "category": "chemistry",
+  "topic": "Solutions",
+  "ability": "Scientific Calculation",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "35af20c18659b21cf78a0052cf1a2131"
+ },
+ {
+  "question": "What is the net ionic equation for the reaction between lead nitrate and sodium chloride?\n\nA. Pb^(2+) + 2Cl^(-) \u2192 PbCl\u2082(s)\nB. Pb^(2+) + NO\u2083^(-) \u2192 Pb(NO\u2083)\u2082(s)\nC. Na^(+) + Cl^(-) \u2192 NaCl(s)\nD. Pb^(2+) + 2Na^(-) \u2192 PbNa\u2082(s)\n\nAnswer:",
+  "answer": [
+   "A"
+  ],
+  "category": "chemistry",
+  "topic": "Chemical Reactions",
+  "ability": "Scientific Calculation",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "e8f1beff623d60d44f7d9687e606915c"
+ },
+ {
+  "question": "What is the molecular geometry of the $PF_3$ molecule?\n\nA. Trigonal planar\nB. Bent\nC. Trigonal pyramidal\nD. Tetrahedral\n\nAnswer:",
+  "answer": [
+   "C"
+  ],
+  "category": "chemistry",
+  "topic": "Molecular Orbital Theory",
+  "ability": "Scientific Calculation",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "652d88debf03fa93ba6bce21e634ed8a"
+ },
+ {
+  "question": "How can momentum be decreased?\n\nA. Decrease mass or velocity, or transfer momentum through collision.\nB. Keep mass and velocity constant, avoid collisions.\nC. Increase mass and velocity, avoid collisions.\nD. Increase mass, decrease velocity, and avoid collisions.\n\nAnswer:",
+  "answer": [
+   "A"
+  ],
+  "category": "physics",
+  "topic": "Momentum and Collisions",
+  "ability": "Base Knowledge",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "3a0a042aa408a4d1d935b4bac5a1ef01"
+ },
+ {
+  "question": "If a violin and a flute each play 256 Hz tones. Which wave has the longer wavelength?\n\nA. Flute has longer wavelength\nB. Violin has longer wavelength\nC. Both have increasing wavelength\nD. Same wavelength\n\nAnswer:",
+  "answer": [
+   "D"
+  ],
+  "category": "physics",
+  "topic": "Sound",
+  "ability": "Base Knowledge",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "a15672fdb7fe9cc77e6d4fb0bcb72c09"
+ },
+ {
+  "question": "How is rotational motion created?\n\nA. Rotational motion is created by increasing the mass of a body.\nB. Rotational motion is created by applying force to a body in a straight line.\nC. Rotational motion is created by applying torque to a body around an axis.\nD. Rotational motion is created by changing the body's temperature.\n\nAnswer:",
+  "answer": [
+   "C"
+  ],
+  "category": "physics",
+  "topic": "Rotational Motion",
+  "ability": "Base Knowledge",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "640374a19296ffc6fe61b55f2d0e2f8d"
+ },
+ {
+  "question": "How do glasses work?\n\nA. Glasses have lenses that bend light to correct vision by adjusting the light entering the eye.\nB. Glasses use mirrors to reflect light and improve vision by focusing it on the retina.\nC. Glasses use magnetic fields to manipulate light waves and enhance vision by aligning them properly.\nD. Glasses have tiny cameras that capture images and project them onto the eye to correct vision.\n\nAnswer:",
+  "answer": [
+   "A"
+  ],
+  "category": "physics",
+  "topic": "Refraction",
+  "ability": "Base Knowledge",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "eaf2b87a396cb2b91a24fb5e434ed0ba"
+ },
+ {
+  "question": "Why does Earth lose heat mainly by radiation?\n\nA. Earth loses heat mainly by radiation because space is a near vacuum with little matter for conduction or convection to occur.\nB. Earth loses heat mainly by conduction because it's in direct contact with space.\nC. Earth loses heat mainly by convection as warm air rises and transfers heat to space.\nD. Earth loses heat equally through conduction, convection, and radiation.\n\nAnswer:",
+  "answer": [
+   "A"
+  ],
+  "category": "physics",
+  "topic": "Heat",
+  "ability": "Base Knowledge",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "e3d215cb36f4838063b687cde6c224e0"
+ },
+ {
+  "question": "How is radioactivity used in the treatment of diseases?\n\nA. Radioactivity diagnoses diseases by enhancing imaging techniques.\nB. Radioactivity treats diseases by killing cancer cells and preparing for bone marrow transplants.\nC. Radioactivity treats diseases by boosting the immune system.\nD. Radioactivity prevents diseases by sterilizing medical equipment.\n\nAnswer:",
+  "answer": [
+   "B"
+  ],
+  "category": "physics",
+  "topic": "Subatomic Physics",
+  "ability": "Knowledge Application",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "d55413db70bd4311cdf3b3746222c85b"
+ },
+ {
+  "question": "How are standing waves and resonance applied to musical instruments?\n\nA. Musical instruments eliminate standing waves and resonance to create unique sounds.\nB. Standing waves and resonance have no significant role in musical instruments.\nC. Musical instruments convert standing waves into resonance to produce harmony.\nD. Musical instruments use standing waves and resonance to produce specific frequencies and amplify notes.\n\nAnswer:",
+  "answer": [
+   "D"
+  ],
+  "category": "physics",
+  "topic": "Sound",
+  "ability": "Knowledge Application",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "09905664a73155101f7c2cb6697bdc7c"
+ },
+ {
+  "question": "What is the effect of increasing the resistance in a series RC circuit?\n\nA. Decreased resistance leads to decreased current and longer charge/discharge times.\nB. Increased resistance leads to increased current and shorter charge/discharge times.\nC. Decreased resistance leads to increased current and shorter charge/discharge times.\nD. Increased resistance leads to decreased current and longer charge/discharge times.\n\nAnswer:",
+  "answer": [
+   "D"
+  ],
+  "category": "physics",
+  "topic": "Circuits",
+  "ability": "Knowledge Application",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "4f39cefa6f9ec3ac81e3e0b1a7c6cf72"
+ },
+ {
+  "question": "If i run down some stairs and stop, what happens to your kinetic energy and your initial gravitational potential energy?\n\nA. Kinetic energy increases; potential energy decreases.\nB. Kinetic energy becomes zero; potential energy increases.\nC. Kinetic energy decreases; potential energy becomes zero.\nD. Kinetic energy becomes zero; potential energy decreases.\n\nAnswer:",
+  "answer": [
+   "D"
+  ],
+  "category": "physics",
+  "topic": "Thermodynamics",
+  "ability": "Knowledge Application",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "030e7bdfe41873777bc93456ebf3c2eb"
+ },
+ {
+  "question": "Why do resistors have tolerance?\n\nA. Resistors have tolerance to increase their lifespan.\nB. Resistors have tolerance to allow for manufacturing variations and cost considerations.\nC. Resistors have tolerance to reduce heat generation.\nD. Resistors have tolerance to improve their conductivity.\n\nAnswer:",
+  "answer": [
+   "B"
+  ],
+  "category": "physics",
+  "topic": "Circuits",
+  "ability": "Knowledge Application",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "c120d13b9dc38ecea61537e5fc6f4adc"
+ },
+ {
+  "question": "A container with a volume of $18  L$ contains a gas with a temperature of $270^o   C$.  If the temperature of the gas changes to $350     ^o    K$ without any change in pressure, what must the container's new volume be?\n\nA. 15.8 L\nB. 11.6 L\nC. 13.2 L\nD. 9.4 L\n\nAnswer:",
+  "answer": [
+   "B"
+  ],
+  "category": "physics",
+  "topic": "Fluid Mechanics",
+  "ability": "Scientific Calculation",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "14f396ebd1e849ec6deba32550d0d68e"
+ },
+ {
+  "question": "Speed after $n$ rebounds ?\n\nA. $h_n = (v_0^2 \\epsilon^n)/(2g)$\nB. $h_n = (v_0^2 \\epsilon^{n})/(g)$\nC. $h_n = (v_0^2 \\epsilon^{2n})/(2g)$\nD. $h_n = (v_0 \\epsilon^{2n})/(2g)$\n\nAnswer:",
+  "answer": [
+   "C"
+  ],
+  "category": "physics",
+  "topic": "1D Motion",
+  "ability": "Scientific Calculation",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "cc980f52c4d4d56f82895f840df548a0"
+ },
+ {
+  "question": "An object with a mass of $  8  kg$ is traveling in a circular path of a radius of $12  m$.  If the object's angular velocity changes from $ 5  Hz$ to $ 7  Hz$ in $ 6 s$, what torque was applied to the object?\n\nA. 4825.4 Nm\nB. 3620.05 Nm\nC. 2412.7 Nm\nD. 1206.35 Nm\n\nAnswer:",
+  "answer": [
+   "C"
+  ],
+  "category": "physics",
+  "topic": "Rotational Motion",
+  "ability": "Scientific Calculation",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "9ddd998e6f29c114a231fa61e1cdf8f5"
+ },
+ {
+  "question": "A spring with a constant of $3 (kg)/s^2$ is lying on the ground with one end attached to a wall. An object with a mass of $3  kg$ and speed of $6  m/s$ collides with and compresses the spring until it stops moving. How much will the spring compress?\n\nA. 8m\nB. 4m\nC. 6m\nD. 10m\n\nAnswer:",
+  "answer": [
+   "C"
+  ],
+  "category": "physics",
+  "topic": "Work and Energy",
+  "ability": "Scientific Calculation",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "8bd2479d7988f44c13d66a3171be54d9"
+ },
+ {
+  "question": "What is the moment of inertia of a pendulum with a mass of $2 kg$ that is $7  m$ from the pivot?\n\nA. 56 kgm^2\nB. 196 kgm^2\nC. 84 kgm^2\nD. 98 kgm^2\n\nAnswer:",
+  "answer": [
+   "D"
+  ],
+  "category": "physics",
+  "topic": "Rotational Motion",
+  "ability": "Scientific Calculation",
+  "type": "multiple-choice",
+  "task_name": "SocraticQA",
+  "prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\". Please directly give the answer without any explanation.",
+  "cot_prompt": "Given a question and four options, please select the right answer. Your answer should be \"A\", \"B\", \"C\" or \"D\".",
+  "id": "d6eb980c10a0a50948a6527b1087e778"
+ }
+]

@@ -1,0 +1,327 @@
+{
+    "Crystal Structure and Lattice Calculations": [
+      {
+        "name": "calculate_fcc_lattice_constant",
+        "description": "Calculate the lattice constant a for Face-Centered Cubic (FCC) structure.",
+        "code": "import math\ndef calculate_fcc_lattice_constant(r):\n    \"\"\"Calculate the lattice constant a for FCC structure.\n    Args:\n    r (float): Atomic radius\n    Returns:\n    float: FCC lattice constant a\n    \"\"\"\n    a = 2 * math.sqrt(2) * r\n    return a"
+      },
+      {
+        "name": "calculate_bcc_lattice_constant",
+        "description": "Calculate the lattice constant a for Body-Centered Cubic (BCC) structure.",
+        "code": "import math\ndef calculate_bcc_lattice_constant(r):\n    \"\"\"Calculate the lattice constant a for BCC structure.\n    Args:\n    r (float): Atomic radius\n    Returns:\n    float: BCC lattice constant a\n    \"\"\"\n    a = 4 * r / math.sqrt(3)\n    return a"
+      },
+      {
+        "name": "calculate_atom_volume",
+        "description": "Calculate the volume of a single atom.",
+        "code": "import math\ndef calculate_atom_volume(r):\n    \"\"\"Calculate the volume of an atom with radius r.\n    Args:\n    r (float): Atomic radius\n    Returns:\n    float: Atomic volume\n    \"\"\"\n    volume = (4/3) * math.pi * r**3\n    return volume"
+      },
+      {
+        "name": "calculate_atoms_total_volume",
+        "description": "Calculate the total volume of all atoms in a unit cell.",
+        "code": "def calculate_atoms_total_volume(number_of_atoms, atom_volume):\n    \"\"\"Calculate the total volume of all atoms in a unit cell.\n    Args:\n    number_of_atoms (int): Number of atoms in the unit cell\n    atom_volume (float): Volume of a single atom\n    Returns:\n    float: Total atomic volume\n    \"\"\"\n    total_volume = number_of_atoms * atom_volume\n    return total_volume"
+      },
+      {
+        "name": "calculate_packing_factor",
+        "description": "Calculate the Atomic Packing Factor (APF), which is the ratio of total atomic volume to unit cell volume.",
+        "code": "def calculate_packing_factor(total_atoms_volume, cell_volume):\n    \"\"\"Calculate the Atomic Packing Factor (APF).\n    Args:\n    total_atoms_volume (float): Total volume of all atoms in the unit cell\n    cell_volume (float): Unit cell volume\n    Returns:\n    float: Atomic Packing Factor\n    \"\"\"\n    apf = total_atoms_volume / cell_volume\n    return apf"
+      },
+      {
+        "name": "calculate_denominator_cubic",
+        "description": "Calculate the denominator part in the interplanar spacing formula for cubic unit cells: sqrt(h^2 + k^2 + l^2).",
+        "code": "import math\ndef calculate_denominator_cubic(h: int, k: int, l: int) -> float:\n    \"\"\"\n    Calculate the denominator part in the interplanar spacing formula for cubic unit cells: sqrt(h^2 + k^2 + l^2).\n    Args:\n    h (int): First component of Miller indices.\n    k (int): Second component of Miller indices.\n    l (int): Third component of Miller indices.\n    Returns:\n    float: Calculated denominator value.\n    \"\"\"\n    denominator = math.sqrt(h**2 + k**2 + l**2)\n    return denominator"
+      },
+      {
+        "name": "calculate_interplanar_spacing_cubic",
+        "description": "Calculate the interplanar spacing d of a cubic unit cell.",
+        "code": "def calculate_interplanar_spacing_cubic(numerator_a: str, denominator_val: float) -> str:\n    \"\"\"\n    Calculate the interplanar spacing d of a cubic unit cell.\n    Args:\n    numerator_a (str): Numerator part of the interplanar spacing formula, i.e., the symbol for unit cell edge length a.\n    denominator_val (float): Denominator part of the interplanar spacing formula, i.e., the value of sqrt(h^2 + k^2 + l^2).\n    Returns:\n    str: Symbolic expression for interplanar spacing d.\n    \"\"\"\n    return f\"{numerator_a} / {denominator_val:.6g}\""
+      },
+      {
+        "name": "calculate_burgers_vector_length",
+        "description": "Calculate the length of the Burgers vector for a body-centered cubic (BCC) crystal structure.",
+        "code": "import math\ndef calculate_burgers_vector_length(r):\n    \"\"\"\n    Calculate the length of the Burgers vector for a body-centered cubic (BCC) crystal structure.\n    Args:\n    r (float): Atomic radius (m)\n    Returns:\n    float: Length of the Burgers vector (m)\n    \"\"\"\n    a = 4 * r / math.sqrt(3)\n    b = (a / 2) * math.sqrt(3)\n    return b"
+      },
+      {
+        "name": "calculate_num_unit_cells",
+        "description": "Calculate the number of unit cells in a given mass of material.",
+        "code": "def calculate_num_unit_cells(total_mass_g: float, unit_cell_mass_g: float) -> float:\n    \"\"\"\n    Calculate the number of unit cells contained in a material of given total mass.\n    Args:\n    total_mass_g (float): Total mass of the material (grams).\n    unit_cell_mass_g (float): Mass of a single unit cell (grams).\n    Returns:\n    float: Total number of unit cells.\n    \"\"\"\n    num_unit_cells = total_mass_g / unit_cell_mass_g\n    return num_unit_cells"
+      },
+      {
+        "name": "validate_lattice_constant",
+        "description": "Checks if the lattice constant is a positive number.",
+        "code": "def validate_lattice_constant(lattice_constant):\n    \"\"\"Validate that the lattice constant is a positive number.\n    Args:\n    lattice_constant (float): The lattice constant.\n    Raises:\n    ValueError: If lattice constant is not positive.\n    \"\"\"\n    if not isinstance(lattice_constant, (int, float)):\n        raise ValueError(\"Lattice constant must be a number.\")\n    if lattice_constant <= 0:\n        raise ValueError(\"Lattice constant must be positive.\")"
+      }
+    ],
+    "Fracture Mechanics and Crack Analysis": [
+      {
+        "name": "calculate_stress_intensity_factor_with_geometry_factor",
+        "description": "Calculate the stress intensity factor KI, including the geometric correction factor Y.",
+        "code": "def calculate_stress_intensity_factor_with_geometry_factor(stress_MPa, geometric_term, geometry_factor):\n    \"\"\"Calculate the stress intensity factor KI.\n    Args:\n    stress_MPa (float): Applied tensile stress in MPa.\n    geometric_term (float): Geometric term √(πa).\n    geometry_factor (float): Geometric correction factor Y.\n    Returns:\n    float: Stress intensity factor KI in MPa√m.\n    \"\"\"\n    return stress_MPa * geometric_term * geometry_factor"
+      },
+      {
+        "name": "calculate_stress_intensity_factor_simple",
+        "description": "Calculate the stress intensity factor K = σ·√(πa) without the geometric correction factor.",
+        "code": "import math\ndef calculate_stress_intensity_factor_simple(applied_stress, crack_length_m):\n    \"\"\"Calculate the stress intensity factor K = σ·√(πa).\n    Args:\n    applied_stress (float): External applied stress in MPa.\n    crack_length_m (float): Crack length in meters.\n    Returns:\n    float: Stress intensity factor K in MPa·m^(1/2).\n    \"\"\"\n    return applied_stress * math.sqrt(math.pi * crack_length_m)"
+      },
+      {
+        "name": "calculate_stress_intensity_factor_k",
+        "description": "Calculate the stress intensity factor K using the formula K = σ √(π a).",
+        "code": "import math\ndef calculate_stress_intensity_factor_k(stress_mpa: float, crack_length_m: float) -> float:\n    \"\"\"\n    Calculate the stress intensity factor K.\n    Args:\n    stress_mpa (float): Applied stress (MPa).\n    crack_length_m (float): Crack length (m).\n    Returns:\n    float: Stress intensity factor K (MPa√m).\n    \"\"\"\n    return stress_mpa * math.sqrt(math.pi * crack_length_m)"
+      },
+      {
+        "name": "determine_fracture",
+        "description": "Determine whether a component will fracture.",
+        "code": "def determine_fracture(stress_intensity_factor, fracture_toughness):\n    \"\"\"Determine whether fracture will occur.\n    Args:\n    stress_intensity_factor (float): Stress intensity factor KI.\n    fracture_toughness (float): Fracture toughness KIC of the material.\n    Returns:\n    bool: Whether fracture will occur (True for yes, False for no).\n    \"\"\"\n    return stress_intensity_factor >= fracture_toughness"
+      },
+      {
+        "name": "calculate_critical_stress_griffith_irwin",
+        "description": "Calculates the critical stress in a material based on fracture toughness and crack length using the Griffith-Irwin equation.",
+        "code": "import math\ndef calculate_critical_stress_griffith_irwin(fracture_toughness: float, crack_length_m: float) -> float:\n    \"\"\"Calculate critical stress using Griffith-Irwin equation.\n    Args:\n    fracture_toughness (float): Fracture toughness (K_IC) in MPa·√m.\n    crack_length_m (float): Crack length in meters.\n    Returns:\n    float: Critical stress in MPa.\n    \"\"\"\n    return fracture_toughness / math.sqrt(math.pi * crack_length_m)"
+      },
+      {
+        "name": "convert_crack_length_to_meters",
+        "description": "Converts crack length from specified units to meters for calculation purposes.",
+        "code": "def convert_crack_length_to_meters(crack_length: float, unit: str) -> float:\n    \"\"\"Convert crack length to meters based on the specified unit.\n    Args:\n    crack_length (float): The length of the crack.\n    unit (str): The unit of the crack length ('mm', 'm', 'μm', 'um').\n    Returns:\n    float: Crack length in meters.\n    \"\"\"\n    conversion_factors = {\n        'mm': 1e-3,\n        'm': 1.0,\n        'μm': 1e-6,\n        'um': 1e-6  # Alternative spelling\n    }\n    if unit not in conversion_factors:\n        raise ValueError(f\"Unsupported crack length unit: {unit}\")\n    return crack_length * conversion_factors[unit]"
+      },
+      {
+        "name": "calculate_plastic_zone_radius",
+        "description": "Calculate the plastic zone radius based on stress intensity factor and yield strength.",
+        "code": "import math\ndef calculate_plastic_zone_radius(k, yield_strength):\n    \"\"\"Calculate the plastic zone radius r_y = K^2 / (2π·σ_ys^2).\n    Args:\n    k (float): Stress intensity factor in MPa·m^(1/2).\n    yield_strength (float): Material yield strength in MPa.\n    Returns:\n    float: Plastic zone radius in meters.\n    \"\"\"\n    return (k ** 2) / (2 * math.pi * yield_strength ** 2)"
+      },
+      {
+        "name": "calculate_max_shear_stress_principal",
+        "description": "Calculates the maximum shear stress based on the maximum and minimum principal stresses.",
+        "code": "def calculate_max_shear_stress_principal(sigma1, sigma3):\n    \"\"\"Calculates the maximum shear stress from principal stresses.\n    Args:\n    sigma1 (float): Largest principal stress.\n    sigma3 (float): Smallest principal stress.\n    Returns:\n    float: Maximum shear stress.\n    \"\"\"\n    return (sigma1 - sigma3) / 2"
+      },
+      {
+        "name": "calculate_stress_parameters",
+        "description": "Calculate the maximum shear stress and stress state coefficient.",
+        "code": "def calculate_stress_parameters(sigma1, sigma2, sigma3):\n    \"\"\"\n    Calculate the maximum shear stress and stress state coefficient.\n    Parameters:\n    sigma1 (float): Principal stress 1 in MPa\n    sigma2 (float): Principal stress 2 in MPa\n    sigma3 (float): Principal stress 3 in MPa\n    Returns:\n    tuple: (tau_max, alpha) where tau_max is the maximum shear stress in MPa and alpha is the stress state coefficient (dimensionless)\n    \"\"\"\n    tau_max = (sigma1 - sigma3) / 2\n    alpha = (sigma1 - sigma2) / (sigma1 - sigma3)\n    return tau_max, alpha"
+      }
+    ],
+    "Material Microstructure Relationships": [
+      {
+        "name": "calculate_hall_petch_strength",
+        "description": "Calculates the yield strength based on the Hall-Petch relationship given grain size in meters.",
+        "code": "def calculate_hall_petch_strength(sigma_0, k_factor, grain_size_m):\n    \"\"\"Calculate yield strength using Hall-Petch equation.\n    Args:\n    sigma_0 (float): Friction stress (MPa).\n    k_factor (float): Hall-Petch coefficient (MPa·m^{1/2}).\n    grain_size_m (float): Grain size in meters.\n    Returns:\n    float: Calculated yield strength (MPa).\n    \"\"\"\n    return sigma_0 + k_factor * (grain_size_m ** -0.5)"
+      },
+      {
+        "name": "calculate_yield_strength",
+        "description": "Calculate the new yield strength after heat treatment.",
+        "code": "def calculate_yield_strength(sigma_0, k, d_initial, d_final):\n    \"\"\"\n    Calculate the new yield strength using the Hall-Petch equation.\n    Parameters:\n    sigma_0 (float): Initial yield strength (MPa)\n    k (float): Hall-Petch constant (MPa * m^1/2)\n    d_initial (float): Initial grain size (um)\n    d_final (float): Final grain size (um)\n    Returns:\n    float: New yield strength (MPa)\n    \"\"\"\n    d_initial_m = d_initial * 1e-6\n    d_final_m = d_final * 1e-6\n    sigma_final = sigma_0 + k * d_final_m**(-1/2)\n    return sigma_final"
+      },
+      {
+        "name": "calculate_corrosion_rate",
+        "description": "Calculate the corrosion rate for given porosity and grain size.",
+        "code": "import math\ndef calculate_corrosion_rate(porosity: float, grain_size: float, k: float) -> float:\n    \"\"\"\n    Calculate the corrosion rate.\n    Args:\n    porosity (float): Porosity, dimensionless, range 0-1.\n    grain_size (float): Grain size in nm.\n    k (float): Corrosion rate constant in mm/year.\n    Returns:\n    float: Calculated corrosion rate in mm/year.\n    \"\"\"\n    return k * porosity / math.sqrt(grain_size)"
+      },
+      {
+        "name": "calculate_min_grain_size_from_corrosion_rate",
+        "description": "Calculate the minimum grain size that meets the requirements based on maximum allowable corrosion rate and porosity.",
+        "code": "def calculate_min_grain_size_from_corrosion_rate(porosity: float, max_corrosion_rate: float, k: float) -> float:\n    \"\"\"\n    Calculate the minimum grain size based on maximum corrosion rate and porosity.\n    Args:\n    porosity (float): Porosity, dimensionless, range 0-1.\n    max_corrosion_rate (float): Maximum allowable corrosion rate in mm/year.\n    k (float): Corrosion rate constant in mm/year.\n    Returns:\n    float: Minimum grain size that meets the corrosion rate requirements in nm.\n    \"\"\"\n    return (k * porosity / max_corrosion_rate) ** 2"
+      },
+      {
+        "name": "calculate_defect_energy",
+        "description": "Calculate the energy value of a screw dislocation",
+        "code": "import math\ndef calculate_defect_energy(alpha, G, b, R, r0):\n    energy = alpha * G * b**2 * math.log(R / r0)\n    return energy"
+      },
+      {
+        "name": "calculate_burgers_vector_length",
+        "description": "Calculate the length of the Burgers vector for a body-centered cubic (BCC) crystal structure.",
+        "code": "import math\ndef calculate_burgers_vector_length(r):\n    \"\"\"\n    Calculate the length of the Burgers vector for a body-centered cubic (BCC) crystal structure.\n    Args:\n    r (float): Atomic radius (m)\n    Returns:\n    float: Length of the Burgers vector (m)\n    \"\"\"\n    a = 4 * r / math.sqrt(3)\n    b = (a / 2) * math.sqrt(3)\n    return b"
+      },
+      {
+        "name": "calculate_doping_concentration",
+        "description": "Calculate the doping concentration when the crystal grows to a specified length.",
+        "code": "def calculate_doping_concentration(initial_concentration, growth_rate, length):\n    \"\"\"\n    Calculate the doping concentration when the crystal grows to a specified length.\n    Args:\n    initial_concentration (float): Initial doping concentration (atoms per cubic centimeter)\n    growth_rate (float): Doping concentration growth rate per centimeter (percentage)\n    length (float): Crystal growth length (centimeters)\n    Returns:\n    float: Final doping concentration (atoms per cubic centimeter)\n    \"\"\"\n    final_concentration = initial_concentration * ((1 + growth_rate) ** length)\n    return final_concentration"
+      },
+      {
+        "name": "calculate_surface_properties",
+        "description": "Calculate the post-treatment surface roughness and percentage increase in hardness",
+        "code": "def calculate_surface_properties(initial_roughness, reduction_percentage, initial_hardness, final_hardness):\n    \"\"\"\n    Calculate the post-treatment surface roughness and percentage increase in hardness\n    :param initial_roughness: Initial surface roughness (μm)\n    :param reduction_percentage: Roughness reduction percentage (%)\n    :param initial_hardness: Initial surface hardness (GPa)\n    :param final_hardness: Final surface hardness (GPa)\n    :return: final_roughness: Post-treatment surface roughness (μm), hardness_increase_percentage: Percentage increase in hardness (%)\n    \"\"\"\n    final_roughness = initial_roughness * (1 - reduction_percentage / 100)\n    hardness_increase_percentage = ((final_hardness - initial_hardness) / initial_hardness) * 100\n    return final_roughness, hardness_increase_percentage"
+      },
+      {
+        "name": "calculate_degradation_state",
+        "description": "Calculate the degradation state of a polymer.",
+        "code": "def calculate_degradation_state(a_initial, a_current):\n    \"\"\"\n    Calculate the degradation state of a polymer based on initial and current absorbance.\n    Args:\n    a_initial (float): Initial absorbance\n    a_current (float): Current absorbance\n    Returns:\n    float: Degradation state\n    \"\"\"\n    d_state = (a_initial - a_current) / a_initial\n    return d_state"
+      },
+      {
+        "name": "calculate_magnetic_anisotropy_energy",
+        "description": "Calculate the magnetic anisotropy energy of an iron thin film",
+        "code": "def calculate_magnetic_anisotropy_energy(thickness_nm, area_cm2, ku):\n    \"\"\"\n    Calculate the magnetic anisotropy energy of an iron thin film\n    Args:\n    thickness_nm: Thickness of the iron thin film (nanometers)\n    area_cm2: Surface area of the iron thin film (square centimeters)\n    ku: Magnetic anisotropy constant (Joules per cubic meter)\n    Returns:\n    float: Magnetic anisotropy energy (Joules)\n    \"\"\"\n    thickness_m = thickness_nm * 1e-9\n    area_m2 = area_cm2 * 1e-4\n    volume_m3 = thickness_m * area_m2\n    energy_j = ku * volume_m3\n    return energy_j"
+      },
+      {
+        "name": "calculate_thermal_resistance",
+        "description": "Calculate the thermal resistance of a nanoscale thin film",
+        "code": "def calculate_thermal_resistance(thickness_nm, thermal_conductivity):\n    \"\"\"\n    Calculate the thermal resistance of a nanoscale thin film\n    Args:\n    thickness_nm: Thin film thickness (nanometers)\n    thermal_conductivity: Thermal conductivity (W/m·K)\n    Returns:\n    float: Thermal resistance (m^2·K/W)\n    \"\"\"\n    thickness_m = thickness_nm * 1e-9\n    thermal_resistance = thickness_m / thermal_conductivity\n    return thermal_resistance"
+      },
+      {
+        "name": "calculate_minimum_thickness",
+        "description": "Calculate the minimum coating thickness required to achieve the target antibacterial efficiency.",
+        "code": "import math\ndef calculate_minimum_thickness(k, efficiency_target):\n    t = -math.log(1 - efficiency_target) / k\n    return t"
+      }
+    ],
+    "Density and Structural Parameters": [
+      {
+        "name": "calculate_density_bcc",
+        "description": "Calculate the density of a material with a BCC structure given the edge length and molar mass.",
+        "code": "def calculate_density_bcc(edge_length_angstrom, molar_mass_g_mol):\n    \"\"\"Calculate the density of a BCC structured material.\n    Args:\n    edge_length_angstrom (float): Edge length of the unit cell in Å.\n    molar_mass_g_mol (float): Molar mass in g/mol.\n    Returns:\n    float: Density in g/cm³.\n    \"\"\"\n    # Constants\n    AVOGADRO = 6.022e23  # mol^-1\n    ATOMS_PER_UNIT_CELL = 2  # For BCC\n    # Convert edge length from Å to cm\n    edge_length_cm = edge_length_angstrom * 1e-8\n    # Calculate volume of the unit cell in cm^3\n    unit_cell_volume = edge_length_cm ** 3\n    # Calculate density\n    density = (ATOMS_PER_UNIT_CELL * molar_mass_g_mol) / (unit_cell_volume * AVOGADRO)\n    return density"
+      },
+      {
+        "name": "calculate_composite_density",
+        "description": "Calculate the volume-averaged density of a composite material",
+        "code": "def calculate_composite_density(phi, rho_p, rho_m):\n    \"\"\"\n    Calculate the volume-averaged density of a composite material\n    Args:\n    phi: Volume fraction of nanoparticles\n    rho_p: Density of nanoparticles (kg/m^3)\n    rho_m: Density of matrix material (kg/m^3)\n    Returns:\n    float: Density of the composite material (kg/m^3)\n    \"\"\"\n    rho_c = phi * rho_p + (1 - phi) * rho_m\n    return rho_c"
+      },
+      {
+        "name": "calculate_pore_volume",
+        "description": "Calculate the pore volume in a material",
+        "code": "def calculate_pore_volume(total_volume, porosity):\n    \"\"\"\n    Calculate the pore volume in a material\n    Args:\n    total_volume: Total volume of the material (cm^3)\n    porosity: Porosity (floating-point number between 0 and 1)\n    Returns:\n    pore_volume: Pore volume (cm^3)\n    \"\"\"\n    pore_volume = total_volume * porosity\n    return pore_volume"
+      },
+      {
+        "name": "calculate_composite_modulus",
+        "description": "Calculate the elastic modulus of a thermoset resin matrix composite reinforced with carbon fibers.",
+        "code": "def calculate_composite_modulus(E_f, E_m, v_f, v_m):\n    \"\"\"\n    Calculate the elastic modulus of a composite material\n    :param E_f: Elastic modulus of the reinforcement phase (carbon fibers) (Pa)\n    :param E_m: Elastic modulus of the matrix material (Pa)\n    :param v_f: Volume fraction of fibers\n    :param v_m: Volume fraction of matrix\n    :return: Elastic modulus of the composite material (Pa)\n    \"\"\"\n    E_c = E_f * v_f + E_m * v_m\n    return E_c"
+      },
+      {
+        "name": "calculate_effective_elastic_modulus",
+        "description": "Calculate the effective elastic modulus of a porous material based on porosity and material parameters.",
+        "code": "def calculate_effective_elastic_modulus(E0, porosity, n):\n    \"\"\"Calculate the effective elastic modulus of a porous material.\n    Args:\n    E0 (float): Elastic modulus of the dense material (GPa).\n    porosity (float): Porosity (0-1).\n    n (float): Empirical exponent.\n    Returns:\n    float: Effective elastic modulus (GPa).\n    \"\"\"\n    return E0 * (1 - porosity)**n"
+      },
+      {
+        "name": "calculate_numerical_aperture",
+        "description": "Calculate the numerical aperture of an optical fiber",
+        "code": "def calculate_numerical_aperture(n1, n2):\n    \"\"\"\n    Calculate the numerical aperture of an optical fiber\n    Args:\n    n1: Core refractive index\n    n2: Cladding refractive index\n    Returns:\n    float: Numerical aperture\n    \"\"\"\n    # Calculate numerical aperture\n    NA = (n1**2 - n2**2)**0.5\n    return NA"
+      }
+    ],
+    "Material Mechanical Property Calculations": [
+      {
+        "name": "calculate_stress",
+        "description": "Calculate the stress of a material according to Hooke's Law, determined by Young's modulus and strain.",
+        "code": "def calculate_stress(young_modulus, strain):\n    \"\"\"Calculate the stress according to Hooke's Law.\n    Args:\n    young_modulus (float): Young's modulus in MPa.\n    strain (float): Strain.\n    Returns:\n    float: Calculated stress in MPa.\n    \"\"\"\n    return young_modulus * strain"
+      },
+      {
+        "name": "calculate_strain_from_elongation",
+        "description": "Calculate engineering strain from elongation and original length.",
+        "code": "def calculate_strain_from_elongation(elongation: float, length: float) -> float:\n    \"\"\"Calculate the strain (dimensionless) from elongation and original length.\n    Args:\n    elongation (float): The elongation or extension of the material (meters).\n    length (float): The original length of the material (meters).\n    Returns:\n    float: The calculated strain (dimensionless).\n    \"\"\"\n    strain = elongation / length\n    return strain"
+      },
+      {
+        "name": "calculate_strain_from_stretch_ratio",
+        "description": "Calculate the strain of a material based on the stretch ratio.",
+        "code": "def calculate_strain_from_stretch_ratio(stretch_ratio):\n    \"\"\"Calculate the strain based on the stretch ratio.\n    Args:\n    stretch_ratio (float): Stretch ratio, expressed as a multiple of the original length.\n    Returns:\n    float: Strain value.\n    \"\"\"\n    return stretch_ratio - 1.0"
+      },
+      {
+        "name": "calculate_youngs_modulus",
+        "description": "Calculate Young's modulus from stress and strain.",
+        "code": "def calculate_youngs_modulus(stress, strain):\n    \"\"\"Calculate the Young's modulus of a material.\n    Args:\n    stress (float): The applied tensile stress on the material.\n    strain (float): The resulting strain (deformation) in the material.\n    Returns:\n    float: The Young's modulus in the same units as the input stress.\n    \"\"\"\n    return stress / strain"
+      },
+      {
+        "name": "calculate_elastic_modulus",
+        "description": "Calculate the elastic modulus (E) from stress (σ) and strain (ε).",
+        "code": "def calculate_elastic_modulus(stress_gpa: float, strain: float) -> float:\n    \"\"\"\n    Calculate the elastic modulus (E) from stress (σ) and strain (ε).\n    Args:\n    stress_gpa (float): Stress value in GPa.\n    strain (float): Dimensionless strain value.\n    Returns:\n    float: Elastic modulus in GPa.\n    \"\"\"\n    if strain == 0:\n        raise ValueError(\"Strain cannot be zero, unable to calculate elastic modulus.\")\n    elastic_modulus_gpa = stress_gpa / strain\n    return elastic_modulus_gpa"
+      },
+      {
+        "name": "compute_effective_modulus",
+        "description": "Calculate the effective elastic modulus E' under plane strain conditions.",
+        "code": "def compute_effective_modulus(E, nu):\n    \"\"\"Calculate the effective elastic modulus under plane strain conditions.\n    Args:\n    E (float): Elastic modulus in MPa.\n    nu (float): Poisson's ratio (dimensionless).\n    Returns:\n    float: Effective elastic modulus E' in MPa.\n    \"\"\"\n    E_prime = E / (1 - nu**2)\n    return E_prime"
+      },
+      {
+        "name": "calculate_von_mises_stress",
+        "description": "Calculate the von Mises equivalent stress based on the second invariant J2 of the deviatoric stress tensor.",
+        "code": "import math\ndef calculate_von_mises_stress(j2):\n    \"\"\"\n    Calculate the von Mises equivalent stress based on the second invariant J2 of the deviatoric stress tensor.\n    Args:\n    j2 (float): Second invariant J2 of the deviatoric stress tensor (MPa^2).\n    Returns:\n    float: von Mises equivalent stress (MPa).\n    \"\"\"\n    if j2 < 0:\n        raise ValueError(\"J2 must be non-negative to calculate von Mises stress.\")\n    sigma_eq = math.sqrt(3 * j2)\n    return sigma_eq"
+      },
+      {
+        "name": "calculate_allowable_shear_stress",
+        "description": "Calculate the allowable shear stress (MPa), which is half of the yield strength.",
+        "code": "def calculate_allowable_shear_stress(yield_strength_MPa):\n    \"\"\"Calculate the allowable shear stress, equal to half of the yield strength.\n    Args:\n    yield_strength_MPa (float): Material yield strength in megapascals.\n    Returns:\n    float: Allowable shear stress in megapascals.\n    \"\"\"\n    allowable_shear_stress_MPa = yield_strength_MPa / 2\n    return allowable_shear_stress_MPa"
+      },
+      {
+        "name": "calculate_max_shear_stress_principal",
+        "description": "Calculate the maximum shear stress from the maximum and minimum principal stresses.",
+        "code": "def calculate_max_shear_stress_principal(sigma1, sigma3):\n    \"\"\"\n    Calculates the maximum shear stress from principal stresses.\n    Args:\n    sigma1 (float): Largest principal stress.\n    sigma3 (float): Smallest principal stress.\n    Returns:\n    float: Maximum shear stress.\n    \"\"\"\n    return (sigma1 - sigma3) / 2"
+      },
+      {
+        "name": "calculate_max_shear_stress_torsion",
+        "description": "Calculate the maximum shear stress for a circular shaft under torsion: τ_max = T·r / J.",
+        "code": "def calculate_max_shear_stress_torsion(torque_Nm, radius_m, polar_moment_of_inertia):\n    \"\"\"\n    Calculate the maximum shear stress τ_max = (T * r) / J.\n    Args:\n    torque_Nm (float): Torque in Newton-meters.\n    radius_m (float): Radius in meters.\n    polar_moment_of_inertia (float): Polar moment of inertia in meters to the fourth power.\n    Returns:\n    float: Maximum shear stress in Pascals (Pa).\n    \"\"\"\n    tau_max_Pa = (torque_Nm * radius_m) / polar_moment_of_inertia\n    return tau_max_Pa"
+      },
+      {
+        "name": "calculate_safety_factor",
+        "description": "Calculate the safety factor, defined as the ratio of maximum withstandable stress to actual stress.",
+        "code": "def calculate_safety_factor(max_interface_stress, stress):\n    \"\"\"\n    Calculate the safety factor.\n    Args:\n    max_interface_stress (float): Maximum withstandable stress of the interface in MPa.\n    stress (float): Current stress in MPa.\n    Returns:\n    float: Safety factor, returns infinity if stress is zero.\n    \"\"\"\n    if stress > 0:\n        return max_interface_stress / stress\n    else:\n        return float('inf')"
+      },
+      {
+        "name": "assess_safety",
+        "description": "Return safety assessment information based on the comparison between shear stress and allowable stress.",
+        "code": "def assess_safety(shear_stress_MPa, allowable_stress_MPa):\n    \"\"\"\n    Assess safety based on shear stress and allowable stress.\n    Args:\n    shear_stress_MPa (float): Calculated shear stress in MPa.\n    allowable_stress_MPa (float): Allowable shear stress in MPa.\n    Returns:\n    str: Safety assessment message.\n    \"\"\"\n    if shear_stress_MPa <= allowable_stress_MPa:\n        return f\"Design is safe: Calculated shear stress ({shear_stress_MPa:.2f} MPa) is less than allowable shear stress ({allowable_stress_MPa} MPa)\"\n    else:\n        return f\"Design is unsafe: Calculated shear stress ({shear_stress_MPa:.2f} MPa) is greater than allowable shear stress ({allowable_stress_MPa} MPa)\""
+      },
+      {
+        "name": "check_debonding",
+        "description": "Determine whether interfacial debonding will occur based on whether stress exceeds the maximum interfacial stress threshold.",
+        "code": "def check_debonding(stress, max_interface_stress):\n    \"\"\"\n    Determine whether interfacial debonding will occur.\n    Args:\n    stress (float): Current stress in MPa.\n    max_interface_stress (float): Maximum stress the interface can withstand in MPa.\n    Returns:\n    bool: Returns True (debonding will occur) if stress is greater than or equal to max_interface_stress, otherwise False.\n    \"\"\"\n    return stress >= max_interface_stress"
+      },
+      {
+        "name": "calculate_tensile_stress",
+        "description": "Calculate the tensile stress after film stretching and determine whether debonding will occur.",
+        "code": "def calculate_tensile_stress(young_modulus, original_length, stretched_length, max_stress):\n    # Calculate the tensile stress developed in the film\n    tensile_stress = young_modulus * ((stretched_length - original_length) / original_length)\n    # Check if the interface is likely to debond\n    debond = tensile_stress > max_stress\n    return tensile_stress, debond"
+      },
+      {
+        "name": "determine_elastic_state",
+        "description": "Determine whether the material is in the elastic deformation stage (stress < yield strength).",
+        "code": "def determine_elastic_state(stress, yield_stress):\n    \"\"\"\n    Determine whether the material is in the elastic deformation stage.\n    Args:\n    stress (float): Current stress in MPa.\n    yield_stress (float): Yield strength in MPa.\n    Returns:\n    bool: Returns True (elastic stage) if stress is less than yield strength, otherwise False.\n    \"\"\"\n    return stress < yield_stress"
+      },
+      {
+        "name": "determine_plastic_deformation",
+        "description": "Determine whether plastic deformation will occur (maximum shear stress > allowable shear stress).",
+        "code": "def determine_plastic_deformation(max_shear_stress_MPa, allowable_shear_stress_MPa):\n    \"\"\"\n    Determine whether plastic deformation will occur.\n    Args:\n    max_shear_stress_MPa (float): Maximum shear stress in megapascals.\n    allowable_shear_stress_MPa (float): Allowable shear stress in megapascals.\n    Returns:\n    bool: Returns True (plastic deformation will occur) if maximum shear stress is greater than allowable shear stress; otherwise False.\n    \"\"\"\n    return max_shear_stress_MPa > allowable_shear_stress_MPa"
+      },
+      {
+        "name": "calculate_plastic_moment",
+        "description": "Calculate the ultimate allowable plastic bending moment of a rectangular cross-section beam.",
+        "code": "def calculate_plastic_moment(width_mm, height_mm, yield_stress_MPa):\n    \"\"\"\n    Calculate the ultimate allowable plastic bending moment of a rectangular cross-section beam\n    Args:\n    width_mm: Beam width (millimeters)\n    height_mm: Beam height (millimeters)\n    yield_stress_MPa: Yield stress (megapascals)\n    Returns:\n    float: Ultimate allowable plastic bending moment (Newton-meters)\n    \"\"\"\n    width_m = width_mm / 1000\n    height_m = height_mm / 1000\n    Z = (width_m * height_m**2) / 4\n    plastic_moment = yield_stress_MPa * 1e6 * Z\n    return plastic_moment"
+      },
+      {
+        "name": "calculate_stress_amplitude",
+        "description": "Calculate the stress amplitude under alternating load ((σ_max - σ_min)/2).",
+        "code": "def calculate_stress_amplitude(max_stress, min_stress):\n    \"\"\"\n    Calculate the stress amplitude\n    :param max_stress: Maximum stress (MPa)\n    :param min_stress: Minimum stress (MPa)\n    :return: Stress amplitude (MPa)\n    \"\"\"\n    stress_amplitude = (max_stress - min_stress) / 2\n    return stress_amplitude"
+      },
+      {
+        "name": "calculate_stress_amplitude_value",
+        "description": "Calculate the stress amplitude, which is half the difference between maximum stress and minimum stress.",
+        "code": "def calculate_stress_amplitude_value(sigma_max, sigma_min):\n    \"\"\"\n    Calculate the stress amplitude.\n    Args:\n    sigma_max (float): Maximum stress value.\n    sigma_min (float): Minimum stress value.\n    Returns:\n    float: Stress amplitude.\n    \"\"\"\n    return (sigma_max - sigma_min) / 2"
+      },
+      {
+        "name": "calculate_mean_stress",
+        "description": "Calculate the mean stress ((σ_max + σ_min)/2).",
+        "code": "def calculate_mean_stress(sigma_max, sigma_min):\n    \"\"\"\n    Calculate the mean stress.\n    Args:\n    sigma_max (float): Maximum stress value.\n    sigma_min (float): Minimum stress value.\n    Returns:\n    float: Mean stress.\n    \"\"\"\n    return (sigma_max + sigma_min) / 2"
+      },
+      {
+        "name": "calculate_stiffness_contribution",
+        "description": "Calculate the stiffness contribution of a material: E × A.",
+        "code": "def calculate_stiffness_contribution(elastic_modulus_pa, cross_section_area_m2):\n    \"\"\"\n    Calculate the stiffness contribution (E * A) for a material.\n    Args:\n    elastic_modulus_pa (float): Elastic modulus in Pa.\n    cross_section_area_m2 (float): Cross-sectional area in m².\n    Returns:\n    float: Stiffness contribution in N/m.\n    \"\"\"\n    return elastic_modulus_pa * cross_section_area_m2"
+      },
+      {
+        "name": "aggregate_stiffness",
+        "description": "Aggregate multiple stiffness contributions to find total stiffness.",
+        "code": "def aggregate_stiffness(stiffness_list):\n    \"\"\"\n    Sum individual stiffness contributions to get total stiffness.\n    Args:\n    stiffness_list (list of float): List of stiffness contributions.\n    Returns:\n    float: Total stiffness.\n    \"\"\"\n    return sum(stiffness_list)"
+      },
+      {
+        "name": "calculate_denominator_interface",
+        "description": "Calculate the denominator in the interfacial stress formula: 1/(E_m(1-ν_m)) + 1/(E_g(1-ν_g)).",
+        "code": "def calculate_denominator_interface(E_m, nu_m, E_g, nu_g):\n    \"\"\"\n    Calculate the denominator: 1/(E_m(1-ν_m)) + 1/(E_g(1-ν_g)).\n    Args:\n    E_m (float): Young's modulus of metal\n    nu_m (float): Poisson's ratio of metal\n    E_g (float): Young's modulus of glass\n    nu_g (float): Poisson's ratio of glass\n    Returns:\n    float: Denominator value\n    \"\"\"\n    term_m = 1 / (E_m * (1 - nu_m))\n    term_g = 1 / (E_g * (1 - nu_g))\n    denominator = term_m + term_g\n    return denominator"
+      },
+      {
+        "name": "calculate_denominator_plate",
+        "description": "Return the parallel plate spacing as the denominator (for electric field or interface calculations).",
+        "code": "def calculate_denominator_plate(plate_separation):\n    \"\"\"\n    Return the denominator (plate separation d).\n    Args:\n    plate_separation (float): Separation between plates in m.\n    Returns:\n    float: Denominator value.\n    \"\"\"\n    return plate_separation"
+      },
+      {
+        "name": "calculate_required_deposition_rate",
+        "description": "Calculate the deposition rate required to achieve the target coating thickness.",
+        "code": "def calculate_required_deposition_rate(thickness_um: float, time_s: float) -> float:\n    \"\"\"\n    Calculates the required deposition rate to achieve a certain thickness in a given time.\n    Args:\n    thickness_um (float): The target coating thickness in micrometers (µm).\n    time_s (float): The total deposition time in seconds (s).\n    Returns:\n    float: The required deposition rate in micrometers per second (µm/s).\n    \"\"\"\n    if time_s <= 0:\n        raise ValueError(\"Time must be a positive value.\")\n    rate_um_per_s = thickness_um / time_s\n    return rate_um_per_s"
+      },
+      {
+        "name": "convert_stress_pa_to_mpa",
+        "description": "Convert stress from Pascals (Pa) to Megapascals (MPa).",
+        "code": "def convert_stress_pa_to_mpa(stress_pa):\n    \"\"\"\n    Convert stress from Pascals (Pa) to Megapascals (MPa).\n    Args:\n    stress_pa (float): Stress in Pascals.\n    Returns:\n    float: Stress in Megapascals.\n    \"\"\"\n    stress_mpa = stress_pa / 1e6\n    return stress_mpa"
+      }
+    ]
+  }
